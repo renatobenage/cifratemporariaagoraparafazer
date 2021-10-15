@@ -1,0 +1,51 @@
+.menu {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(213, 215, 230);
+
+  transform: translateX(-100%);
+  transition: transform 200ms linear;
+}
+
+.menu_open {
+  transform: translateX(0);
+}
+
+.menu-item {
+  padding: 20px 15px;
+  border-bottom: 1px solid rgb(116, 124, 129, 0.8);
+}
+
+.menu-item-action {
+  color: #094469;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body c {
+  color: brown;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: pre;
+}
+
+body d {
+  font-weight: bolder;
+  color: green;
+  background-color: honeydew;
+  font-size: 14px;
+}
+
+li:hover {
+  background-color: chocolate;
+}
+
+button {
+  margin: 6px;
+  padding: 3px;
+  font-size: 14px;
+}
