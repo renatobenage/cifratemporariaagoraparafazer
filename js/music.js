@@ -489,7 +489,7 @@ function aMinhaEsperancaCDJovem() {
   Se a vida apresenta motivos pra desanimar
   <c>                  Eb/Bb     Bb</c>
   A minha esperança está no Senhor
-  <c>      Gm       F        Cm/Bb</c>
+  <c>      Bb       F        Cm/Bb</c>
   Se as nuvens escuras não querem passar
   <c>  F                 Gm       F</c>
   A minha esperança está no Senhor
