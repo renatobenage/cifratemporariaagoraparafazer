@@ -23,6 +23,7 @@ function buttonMusic() {
   // ];
   
   let musicArray = [
+    'A Esperança É Jesus',
     'Achei Um Grande Amigo / Lar Feliz',
     'Aclame Ao Senhor',
     'A Minha Esperança',
@@ -96,6 +97,7 @@ function buttonMusic() {
   
   // Incluir uma variável
   let musicVariable = [
+    'javascript:aEsperancaEJesus()',
     'javascript:acheiUmGrandeAmigoLarFeliz()',
     'javascript:aclameAoSenhorDianteDoTroco()',
     'javascript:aMinhaEsperancaCDJovem()',
@@ -219,6 +221,7 @@ function buttonMusic2() {
     'Rei dos Reis 73',
     'Bendito Seja O Senhor / Oh Que Esperança',
     'O Senhor É o Meu Abrigo',
+    'A Esperança É Jesus',
     'A Minha Esperança',
     'Mansão Sobre O Monte 501',
     'Não Desistir',
@@ -236,6 +239,7 @@ function buttonMusic2() {
     'javascript:reiDosReis73()',
     'javascript:benditoSejaOSenhorHoQueEsperanca()',
     'javascript:oSenhorEoMeuAbrigo()',
+    'javascript:aEsperancaEJesus()',
     'javascript:aMinhaEsperancaCDJovem()',
     'javascript:mansaoSobreOMonte()',
     'javascript:naoDesistir150()',
@@ -271,6 +275,106 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function aEsperancaEJesus() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>A Esperança É Jesus</h3>
+  Tom: <c>Eb</c>
+
+  [Intro] <c>Eb/Bb Bb Eb2 Cm7 Fm7</c>
+          <c>Bb7 Bb Bb/C Bb/D</c>
+  
+  <c>    Eb2            Ab   Csus C</c>
+  Não há esperança alguma
+  <c>       Fm                    Bb</c>
+  Pra um mundo onde Deus não está
+  <c>    Eb                  Ab</c>
+  Não há esperança de amor   e de paz
+  <c>       Fsus       F          Bbsus Bb </c> 
+  Onde o ódio deixa marcas fatais
+  <c>    Eb              Ab   Csus C</c>
+  Não há esperança de vida
+  <c>  Fm                    Bb</c>
+  Naqueles que não amam a Deus
+  <c>    Eb2                Ab2 </c>  
+  Não há esperança de um mundo de paz
+  <c>     Fsus        F         Bbsus Bb</c>
+  Se o homem deixa Deus para trás
+  
+  <c>                  Eb  </c>         
+  A esperança é Jesus
+  <c>    Cm     Fm7</c>
+  Ele é o ca-mi-nho
+  <c>                 Ab/Bb</c>
+  A esperança é Je-sus
+  <c>             Bb    Eb </c>     
+  Nossa luz en-tre espinhos
+  <c>       Bb6      Bb     Eb </c>
+  A espe-ran-ça é Jesus
+  <c>     Eb/G     Ab        Eb/G</c>
+  Segu-ran-ça de   salvação
+  <c>       Fsus</c>
+  Onde o mun-do
+  <c>        F          Abm</c>
+  Pode achar solução
+  <c>Abm         Ab/Bb           Eb Csus C</c>
+      A espe - ran - ça é Jesus
+
+  <d>Tom: F</d>
+  
+  <c>   F                 Bb   Dsus D</c>
+  Só há esperança e certeza
+  <c>  Gm                  C</c>
+  Naquele que é vencedor
+  <c>   F               Bb2</c>
+  Só há esperança no no-me de Deus
+  <c>        Gsus          G            Csus C</c>
+  Para um po-vo que não tem mais amor
+  
+  <c>                   F</c>
+  A esperança é Jesus
+  <c>    Dm     Gm7</c>
+  Ele é o ca-mi-nho
+  <c>                  Bb/C </c>         
+  A esperança é Jesus
+  <c>            C      F</c>
+  Nossa luz entre espinhos
+  <c>      C6      C     F</c>
+  A esperança é Jesus
+  <c>     F/A      Bb         F/A</c>
+  Segu-ran-ça de   salvação
+  <c>       Gsus </c>
+  Onde o mundo
+  <c>       G           Bbm</c>
+  Pode achar solução
+  <c>Bbm         Bbm/C           F Bb/C</c>
+      A espe - ran - ça é Jesus
+  
+  <c>              C     F</c>
+  A esperança é Jesus
+  <c>    Dm     Gm7</c>
+  Ele é o ca-mi-nho
+  <c>                  Bb/C </c>         
+  A esperança é Jesus
+  <c>            C      F</c>
+  Nossa luz entre espinhos
+  <c>      C6      C     F</c>
+  A esperança é Jesus
+  <c>    F/A       Bb        F/A</c>
+  Segu-ran-ça de   salvação
+  <c>      Gsus </c>
+  Onde o mundo
+  <c>      G           Bbm</c>
+  Pode achar solução
+  <c>Bbm         Bbm/C            Dm</c>
+    A espe - ran - ça é Jesus
+
+  <c>Bbm         Bbm/C            F</c>
+    A espe - ran - ça é Jesus
+    `
+}
 
 function larFeliz572() {
   let thisText = document.getElementById('music-text')
