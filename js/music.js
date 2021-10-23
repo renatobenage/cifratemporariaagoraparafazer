@@ -223,8 +223,8 @@ function buttonMusic2() {
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:entregoMinhaVida()',
     'javascript:naoDesistir150()',
+    'javascript:entregoMinhaVida()',
     'javascript:aoOlharPraCruz()',
     'javascript:tomaMeuCoracao()',
     'javascript:ouveAMinhaOracao()',
