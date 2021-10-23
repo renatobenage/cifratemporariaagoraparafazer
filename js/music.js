@@ -37,6 +37,7 @@ function buttonMusic() {
     'Ele Me Amparou',
     'Em Espírito, Em Verdade',
     'Enquanto Eu Viver',
+    'Entrego Minha Vida (Adoradores)',
     'Esconderijo',
     'Esta Na Hora (CD Jovem 2008)',
     'Eu Me Rendo (Vocal Livre)',
@@ -111,6 +112,7 @@ function buttonMusic() {
     'javascript:eleMeAmparou()',
     'javascript:emEspiritoEmVerdade()',
     'javascript:enquantoEuViver()',
+    'javascript:entregoMinhaVida()',
     'javascript:esconderijo()',
     'javascript:estaNaHoraCDJovem2008()',
     'javascript:euMeRencoVocalLivre()',
@@ -212,39 +214,21 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Maranata (Avivah)',
-    'Mansão Sobre O Monte 501',
-    'Renova-me',
-    'Como Agradecer HA',
+    'Não Desistir 150',
+    'Entrego Minha Vida (Adoradores)',
+    'Ao Olhar Pra Cruz',
+    'Toma Meu Coração',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
-    'Rei dos Reis 73',
-    'Bendito Seja O Senhor / Oh Que Esperança',
-    'O Senhor É o Meu Abrigo',
-    'A Esperança É Jesus',
-    'A Minha Esperança',
-    'Mansão Sobre O Monte 501',
-    'Não Desistir',
-    'Lar Feliz 572',
-    'Esta Na Hora (CD Jovem 2008)',
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:maranataAvivah()',
-    'javascript:mansaoSobreOMonte()',
-    'javascript:renovaMe()',
-    'javascript:comoAgradecer()',
+    'javascript:entregoMinhaVida()',
+    'javascript:naoDesistir150()',
+    'javascript:aoOlharPraCruz()',
+    'javascript:tomaMeuCoracao()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
-    'javascript:reiDosReis73()',
-    'javascript:benditoSejaOSenhorHoQueEsperanca()',
-    'javascript:oSenhorEoMeuAbrigo()',
-    'javascript:aEsperancaEJesus()',
-    'javascript:aMinhaEsperancaCDJovem()',
-    'javascript:mansaoSobreOMonte()',
-    'javascript:naoDesistir150()',
-    'javascript:larFeliz572()',
-    'javascript:estaNaHoraCDJovem2008()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -275,6 +259,77 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function entregoMinhaVida() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Entrego Minha Vida (Adoradores)</h3>
+  Tom: <c>A</c>
+
+  Intro: <c>A D/F# G D </c>
+          <c>A D/F# G D</c>
+
+  <c>A               Bm7(11)</c>
+  Hoje eu entrego todos meus temores
+  <c>D                    A</c>
+  Todas as doenças espirituais
+  <c>A             Bm7(11)</c>
+  Hoje eu renovo o  meu compromisso
+  <c>D9                       A</c>
+  De usar os meus talentos para o Senhor
+  <c>F#m7                        E</c>
+  Quero ser ungindo por Jesus
+  <c>Bm7                    D</c>
+  Ter o dobro do azeite, ser santificado
+
+  Coro:
+
+  <c>  A                      E</c>
+  Entrego a minha vida com todo meu amor
+  <c>   Bm7             D    </c>        
+  De todo coração eu rendo o meu louvor
+  <c>A                  F7m7 E</c>
+  Ergo as minhas mãos     para te adorar
+  <c>Bm7            D</c>
+  Faça seu poder se manifestar (em mim)
+
+  ( <c>A D/F# G D </c>)
+
+  <c>A               Bm7(11)</c>
+  Hoje eu entrego todos meus temores
+  <c>D                    A</c>
+  Todas as doenças espirituais
+  <c>A             Bm7(11)</c>
+  Hoje eu renovo o  meu compromisso
+  <c>D9                       A</c>
+  De usar os meus talentos para o Senhor
+  <c>F#m7                         E</c>
+  Quero ser ungindo por Jesus
+  <c>Bm7                    D</c>
+  Ter o dobro do azeite, ser santificado
+
+  Coro:
+
+  <c>  A                      E</c>
+  Entrego a minha vida com todo meu amor
+  <c>   Bm7             D     </c>       
+  De todo coração eu rendo o meu louvor
+  <c>A                  F7m7 E</c>
+  Ergo as minhas mãos     para te adorar
+  <c>Bm7            D</c>
+  Faça seu poder se manifestar (em mim)
+
+  <c>  A                      E</c>
+  Entrego a minha vida com todo meu amor
+  <c>   Bm7             D    </c>        
+  De todo coração eu rendo o meu louvor
+  <c>A                  F7m7 E</c>
+  Ergo as minhas mãos     para te adorar
+  <c>Bm7            D</c>
+  Faça seu poder se manifestar (em mim)
+    `
+}
 
 function aEsperancaEJesus() {
   let thisText = document.getElementById('music-text')
@@ -489,15 +544,15 @@ function aMinhaEsperancaCDJovem() {
   Se a vida apresenta motivos pra desanimar
   <c>                  Eb/Bb     Bb</c>
   A minha esperança está no Senhor
-  <c>      Bb       F        Cm/Bb</c>
+  <c>      Bb                Cm/Bb      Bb</c>
   Se as nuvens escuras não querem passar
   <c>  F                 Gm       F</c>
   A minha esperança está no Senhor
-  <c>     *Gm               Eb</c>
+  <c>     Gm               Eb</c>
   Se alguém que eu amo vier me ferir
   <c>  Bb              Cm/Bb      Bb</c>
   A minha esperança está no Senhor
-  <c>      *Gm                   Eb</c>
+  <c>      Gm                   Eb</c>
   Se às vezes me esqueço de amar ou sorrir
   <c>  Bb              Cm/Bb      Bb</c>
   A minha esperança está no Senhor
