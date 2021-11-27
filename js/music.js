@@ -60,6 +60,7 @@ function buttonMusic() {
     'Muito Além Do Sol',
     'Não Desanimamos',
     'Não Desistir 150',
+    'Não Há O Que Temer',
     'Não Tardará',
     'Nos Braços De Jesus',
     'Obrigado (Acústico)',
@@ -135,6 +136,7 @@ function buttonMusic() {
     'javascript:muitoAlemDoSol551()',
     'javascript:naoDesanimamos()',
     'javascript:naoDesistir150()',
+    'javascript:naoHaOQueTemer()',
     'javascript:naoTardara()',
     'javascript:nosBracosDeJesus()',
     'javascript:obrigadoAcustico()',
@@ -214,19 +216,17 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Não Desistir 150',
-    'Entrego Minha Vida (Adoradores)',
-    'Ao Olhar Pra Cruz',
-    'Toma Meu Coração',
+    'Rei dos Reis 73',
+    'Maranata Avivah',
+    'Não Há O Que Temer',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:naoDesistir150()',
-    'javascript:entregoMinhaVida()',
-    'javascript:aoOlharPraCruz()',
-    'javascript:tomaMeuCoracao()',
+    'javascript:maranataAvivah()',
+    'javascript:reiDosReis73()',
+    'javascript:naoHaOQueTemer()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
   ]
@@ -259,6 +259,88 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function naoHaOQueTemer() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Não Há o Que Temer (Adoradores)</h3>
+  Tom: <c>A</c>
+  Intro: <c>A A7M D9/A 
+          A A7M D9/A</c>
+  
+  <c>            D             A9sus</c>
+  Eu sou o Senhor, Rei de Israel
+  <c>A          D               F#m</c>
+  Santo Redentor, começo e o fim
+  <c>          E4                Bm7</c>
+  Sou o Criador, O verdadeiro Deus
+  <c>         D7M           E4</c>
+  Eu sou a cura, Sou o Poder
+
+  <c>           D                 A9</c>
+  Eu sou o Amém, Estrela da manhã
+  <c>             D               F#m</c>
+  Eu Morri na Cruz, trouxe Salvação
+  <c>              E4                 Bm7</c>
+  Conheço a tua dor, ouço o teu clamor
+  <c>        D7M              E4 E D/E</c>
+  E minha destra, não falhará
+
+  <c>A                 E4                Bm7</c>
+    Não há o que temer, contigo eu estou
+  <c>A/C#     D7M  D                         A</c>
+  Não te assombres, porque eu sou o teu Deus
+  <c>            E4   A/C#          Bm7</c>
+  Te fortalecerei,  Te  sustentarei
+  <c>    A/C#  D          E4    A</c>
+  Com minha mão, eu serei fiel
+
+  (<c> A A7M D9/A 
+    A A7M D9/A</c> ) 
+      
+  <c>            D              A9</c>
+  Eu sou o Senhor, Rei de Israel
+  <c>           D               F#m</c>
+  Santo Redentor, começo e o fim
+  <c>          E4                Bm7</c>
+  Sou o Criador, O verdadeiro Deus
+  <c>         D7M           E4</c>
+  Eu sou a cura, Sou o Poder
+
+  <c>          D                 A9</c>
+  Eu sou o Amém, Estrela da manhã
+  <c>A            D                F#m</c>
+  Eu Morri na Cruz, trouxe Salvação
+  <c>              E4                 Bm7</c>
+  Conheço a tua dor, ouço o teu clamor
+  <c>        D7M              E4 </c>
+  E minha destra, não falhará
+
+  <c>A                 E4                Bm7</c>
+    Não há o que temer, contigo eu estou
+  <c>A/C#     D7M  D                         A</c>
+  Não te assombres, porque eu sou o teu Deus
+  <c>            E4   A/C#          Bm7</c>
+  Te fortalecerei,  Te  sustentarei
+  <c>    A/C#  D          E4    A</c>
+  Com minha mão, eu serei fiel
+
+  (<c> A E/A D/A A</c> )
+
+  <c>A                 E4                Bm7</c>
+    Não há o que temer, contigo eu estou
+  <c>A/C#     D7M  D                         A</c>
+  Não te assombres, porque eu sou o teu Deus
+  <c>            E4   A/C#          Bm7</c>
+  Te fortalecerei,  Te  sustentarei
+  <c>    A/C#  D          E4    A</c>
+  Com minha mão, eu serei fiel
+
+  (<c> A A7M D9/A 
+    A A7M D9/A</c> ) 
+    `
+}
 
 function entregoMinhaVida() {
   let thisText = document.getElementById('music-text')
