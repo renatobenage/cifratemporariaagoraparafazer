@@ -224,8 +224,8 @@ function buttonMusic2() {
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:maranataAvivah()',
     'javascript:reiDosReis73()',
+    'javascript:maranataAvivah()',
     'javascript:naoHaOQueTemer()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
@@ -4923,7 +4923,7 @@ function reiDosReis73() {
   A do rai, glorificai o nome de Cristo!
   <c>  Em6 D                F#º/C       B  B/D# Em D7/F#</c>
   E xal tai, magnificai Jesus, o Senhor!
-  <c>G               Am7 G/B C         E7B Am </c>
+  <c>G               Am7 G/B C         E7/B Am </c>
   Terra e Céu, cantai louvor a Deus!
   <c>        G/D         D7             G</c>
   Ele morreu! Ele venceu! É Rei dos reis!
