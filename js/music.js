@@ -64,6 +64,7 @@ function buttonMusic() {
     'Não Tardará',
     'Nos Braços De Jesus',
     'Obrigado (Acústico)',
+    'Olhe Ao Redor',
     'O Melhor Lugar Do Mundo',
     'O Senhor Está Aqui',
     'O Senhor É o Meu Abrigo',
@@ -140,6 +141,7 @@ function buttonMusic() {
     'javascript:naoTardara()',
     'javascript:nosBracosDeJesus()',
     'javascript:obrigadoAcustico()',
+    'javascript:olheAoRedor()',
     'javascript:oMelhorLugarDoMundo()',
     'javascript:oSenhorEstaAqui()',
     'javascript:oSenhorEoMeuAbrigo()',
@@ -221,6 +223,8 @@ function buttonMusic2() {
     'Não Há O Que Temer',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
+    'Olhe Ao Redor',
+    'Criança Da Promessa',
   ];
   // Incluir uma variável
   let musicVariable = [
@@ -229,6 +233,8 @@ function buttonMusic2() {
     'javascript:naoHaOQueTemer()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
+    'javascript:olheAoRedor()',
+    'javascript:criancaDaPromessa()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -259,6 +265,239 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function criancaDaPromessa() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+    <pre>
+    <h3>Criança da Promessa</h3>
+  Tom: <c>C</c>
+
+  <D>Versus:</D>
+  <c>C2       C2/E</c>
+  Sob as estrelas
+  <c>   F    G   C2  C</c>
+  Se vê a pro-mes-sa
+  <c>F          C/E</c>
+  Um Deus me-ni-no
+  <c>  Dm7       Gsus G</c>
+  Bebê que se fez
+  <c>C2        C2/F</c>
+  Gloria que desce
+  <c>  Esus  E7/G   Am</c>
+  Naquele ber - cinho
+  <c>Dm7     C/E</c>
+  Vem redimir-nos
+  <c>     F        Gsus G</c>
+  E ao mundo salvar
+
+  <D>Coro:</D>
+  
+  <c>C        G/B        Am    C/G</c>
+  Glória a Deus nas alturas
+  <c>F           C/E       Gsus  G</c>
+  Paz para os homens também
+  <c>C        G/B        Am    C/G </c>
+  Gloria a Deus nas alturas
+  <c>    F        C/E      Gsus  G</c>
+  Pra sempre e sempre, amém
+  <c>    Dm       Gsus    G F  </c>
+  Pra sempre e sempre, amém.
+
+  (<c> C/E Dm7 C2/E Ab Bb C2 </c>)
+
+  <D>Versus:</D>
+
+  <c>C2  C2/E      F    G  C2 C</c>
+  Ajoelhados ao lado do berço
+  <c>F         C/E       Dm7     Gsus</c>
+  Vem os pastores, ao Deus adorar.
+  <c>E7/G# Am          C2/E  </c>   
+     O amor que transborda 
+  <c>  Esus  E7/G#   Am</c>
+  daquele       momento
+  <c>  Dm7      C/E        F        Gsus G</c>
+  Dissipa as trevas pra nos libertar
+
+  <D>Coro:</D>
+
+  <c>C        G/B        Am    C/G</c>
+  Glória a Deus nas alturas
+  <c>F           C/E       Gsus  G</c>
+  Paz para os homens também
+  <c>C        G/B        Am    C/G </c>
+  Gloria a Deus nas alturas
+  <c>    F        C/E      Gsus  G</c>
+  Pra sempre e sempre, amém
+  <c>Dm           Gsus    Csus C  C/B  </c>
+  Pra sempre e sempre, a - mém.
+
+  <D>Versus:</D>
+
+  <c>Am  Em/G     Dm/F  Dm      Am  Fm/Ab</c>
+  Ajoelhai e ou-vi a voz dos an - jos
+  <c>  C/G G/F   C/E F     C/G</c>
+  Natal,    Natal   é Natal
+  <c>  Gsus Em/G  E/G# Am </c>
+  Jesus  nas - ceu
+  <c>  G/B G/F  C/E Fmaj7 Dm/F C/G   Gsus</c>
+  Natal,   Natal,      Na - tal,
+  <c>G  Gsus G  Ab      Ab/Gb</c> 
+  Je-sus  nasceu
+
+  Tom: <c>Db</c>
+  <D>Coro:</D>
+
+  <c>Db       Ab/C       Bbm   Db/Ab</c>
+  Glória a Deus nas alturas
+  <c>Gb          Db/F      Absus  Ab</c>
+  Paz para os homens também 
+  <c>Db       Ab/C       Bbm   Db/Ab </c>
+  Gloria a Deus nas alturas
+  <c>    Gb       Db/F     Absus Ab</c>
+  Pra sempre e sempre, amém
+  <c>    Ebm      Absus   Ab  Bbm  Bbm/Ab</c>
+  Pra sempre e sempre, a - mém
+  <c>    Ebm7     Db2/F </c>
+  Pra sempre e sempre
+  <c>    Gb       Db2/F</c>
+  Pra sempre e sempre
+  <c>    Cb    Gb/Bb Ebm7   Absus</c>
+  Pra sem - pre e sempre        
+      
+  AMÉM!
+  (<c> Db Ab/C Gb/Bb Db/Ab Gb Db/F Ebm Db Db Gb/Bb</c> )
+
+  <c>Dbsus/Ab        Db A</c>
+   Sem - pre amém 
+
+    `
+}
+
+function olheAoRedor() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Olhe Ao Redor</h3>
+  Tom: <c>G</c>
+
+  Intro: <c>C/D G2 Am/G G Esus/F# B7b9 Em11 </c>
+         <c>G/D C2 D/C G2/B A9 C/D D7susb9 G2</c>
+
+  <d>Versus:</d>
+  
+  <c>          Am7(4)</c>
+  Não fique o - cupado pra
+  <c>            C/D        D9</c>
+  Um pequeno beijo dar  
+  <c>          G2       Em7(4)</c>
+  A quem você amar
+  <c>        Am7(4)</c>
+  Nem esperar um pouco mais
+  <c>                        C/D    D9</c>
+  Pra um forte abraço poder dar
+  <c>            G2  G/A G/A# B7</c>
+  A quem precisar  a   a   Ar
+  <c>              Em        Bm7</c>
+  Pois há tanta gente, chorando
+  <c>Em7     Am7(4)</c>
+  Gente morrendo
+  <c>C2 D/C C Am11      D     GMaj9/B Cmaj7</c>
+  Gen-te pe-din-do amor, a   nós   o-o-os
+
+  <d>Coro:</d>
+
+  <c>C/D  Am/D  G/D  G2        Am/G </c>
+  O - lhe_ao re - dor, pois  é   
+  <c>G    Esus/F# B7b9       Em11</c>
+  na -  tal     A - che alguém,
+  <c>    G/D                C</c>
+  Não guarde o amor, que você tem
+  <c>C/D  Am/D  G/D  G2        Am/G </c>
+  O - lhe_ao re - dor, pois  é   
+  <c>G    Esus/F# B7b9       Em11</c>
+  na -  tal     A - che alguém,
+  <c>  Em7/D            C2         D/C</c>
+  Espalhe o amor que você tem
+  <c>          G2/B        A9</c>
+  É o que o mun-do necessita: 
+  <c>C/D      D7susb9  G2</c>
+      Amor
+
+  <d>Versus:</d>
+
+  <c>D/E  Em      Bm7  Am7(4)</c>
+  Como esperar mais um    minuto?
+  <c>              C/D </c>
+  O tempo corre em segundos…
+  <c>D9              G2    Em7(4)</c>
+    Difícil acompanhar
+  <c>              Am7(4)</c>
+  Vemos pessoas tão   sinceras
+  <c>                C/D     </c>  
+  Com suas vidas tão singelas
+  <c>D9       G2  G/A G/A# B7</c>
+  Como ajudar?
+  <c>              Em        Bm7</c>
+  Pois há tanta gente, chorando
+  <c>Em7     Am7(4)</c>
+  Gente morrendo
+  <c>C2 D/C C  Am11    D    GMaj9/B Cmaj7</c>
+  Gen-te pe-dindo amor, a nós    ooo
+
+  <d>Coro:</d>
+
+  <c>C/D  Am/D  G/D  G2        Am/G </c>
+  O - lhe_ao re - dor, pois  é   
+  <c>G    Esus/F# B7b9       Em11</c>
+  na -  tal     A - che alguém,
+  <c>    G/D                C</c>
+  Não guarde o amor, que você tem
+  <c>C/D  Am/D  G/D  G2        Am/G </c>
+  O - lhe_ao re - dor, pois  é   
+  <c>G    Esus/F# B7b9       Em11</c>
+  na -  tal     A - che alguém,
+  <c>  Em7/D            C2         D/C</c>
+  Espalhe o amor que você tem
+  <c>          G2/B        A9</c>
+  É o que o mun-do necessita: 
+  <c>C/D      D7susb9  G2</c>
+      Amor
+
+  <d>Ponte:</d>
+
+  <c>            G/D  D/C  B7+    B7+/D#</c>
+  Que todos rece - bam  o dom
+  <c>Em       Em7/D        C   C</c>
+  Para espa-lhar mais amor
+  <c>G/B      Am7(4) Am/G      D2/F#</c>
+  Por onde  for    e a quem for
+  <c>B/D#    Esus  E</c>
+  Compartilhar
+
+  Tom: <c>A</c>
+  <d>Coro:</d>
+
+  <c>D/E D2/F#  E2/G# A2       Bm/A </c>
+  O - lhe ao re -- dor, pois é   
+  <c>A  F#sus/G# C#7b9      F#m11</c>
+  na - tal     A - che alguém,
+  <c>    A/E                D</c>
+  Não guarde o amor, que você tem
+  <c>D/E Bm/E  A/E    A2       Asus2,4</c>
+  O - lhe ao re -- dor, pois é   
+  <c>A  F#sus/G# C#7b9      F#m</c>
+  na - tal     A - che alguém,
+  <c>    F#m/E            D2</c>
+  Espalhe o amor que você tem
+  <c>E/D        A2/C#        B9</c>
+    É o que o mun - do necessita: 
+  <c>D/E      E7susb9 A2 F#m7 </c>
+      Amor - or
+  <c>B9   E7susb9        A2</c>
+      A - mor   oOoOo  or
+    `
+}
 
 function naoHaOQueTemer() {
   let thisText = document.getElementById('music-text')
