@@ -64,6 +64,7 @@ function buttonMusic() {
     'Não Desistir 150',
     'Não Há O Que Temer',
     'Não Tardará',
+    'Noite De Natal',
     'Nos Braços De Jesus',
     'Obrigado (Acústico)',
     'Olhe Ao Redor',
@@ -143,6 +144,7 @@ function buttonMusic() {
     'javascript:naoDesistir150()',
     'javascript:naoHaOQueTemer()',
     'javascript:naoTardara()',
+    'javascript:noiteDeNatal()',
     'javascript:nosBracosDeJesus()',
     'javascript:obrigadoAcustico()',
     'javascript:olheAoRedor()',
@@ -230,6 +232,7 @@ function buttonMusic2() {
     'Olhe Ao Redor',
     'Criança Da Promessa',
     'Adore',
+    'Noite De Natal',
   ];
   // Incluir uma variável
   let musicVariable = [
@@ -241,6 +244,7 @@ function buttonMusic2() {
     'javascript:olheAoRedor()',
     'javascript:criancaDaPromessa()',
     'javascript:adore()',
+    'javascript:noiteDeNatal()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -271,6 +275,103 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function noiteDeNatal() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Noite de Natal ( Resumo )</h3>
+  Tom: <c>Eb</c>
+
+  Intro: <c>Eb Cm Ab Bb</c>
+
+  <d>Coro:</d>  
+  <c>Eb                              Eb  Bb/D</c>
+  Ouçam os sinos tocando a melo - di - a
+  <c>Cm            Bb_Ab  Eb_Bb</c>
+  De boas novas de alegri-a
+  <c>Eb                                Eb Bb/D </c>
+  Paz sobre a Terra e a todos felicida-de
+  <c>Cm                       Bb_Ab Bb </c>
+  Cantam os anjos, é noite de Natal.
+
+  <d>Versus:</d>
+  
+  <c>Eb/G Ab  Bb       Cm </c>
+  Ou - çam novas de paz
+  <c>      Eb/G Ab Bb        Eb</c>
+  E alegri - a  vindas do céu
+  <c>   Eb/G Ab  Bb         Cm </c>
+  Os an - jos com seu louvor
+  <c>Db            Bbsus</c>
+  Vêm anunciar: Cristo já nasceu.
+
+  <d>Coro:</d>
+  Tom: <c>F</c>
+
+  <c>F                               F   C/E</c>
+  Ouçam os sinos tocando a melo - di - a
+  <c>Dm             F/Bb C</c>
+  De boas novas e alegria
+  <c>F                                 F  C/E</c>
+  Paz sobre a Terra e a todos felicida-de
+  <c>Dm                 F/Bb F/C   F/A</c>
+  Cantam os anjos, é noite de Natal.
+
+  <d>Versus:</d>
+
+  <c>F/A Bb C       Dm</c>
+  Juntos terra e céu
+  <c>   F/A Bb C         F</c>
+  Louvan-do com gratidão
+  <c>  F/A Bb  C          Dm </c>
+  Sentindo o a-mor de Deus
+  <c>Eb        Bb  Eb    Bb   Eb</c>
+  Emanuel - a - nun - ci - ai
+  <c>Eb/D F/C    Cm7  Gm7 Cm7  Gm7  Cm7</c>
+  Vem para Reinar. Che-gou   o   Rei
+  <c>Ab/C Bb/Ab Ab    Bb/AB Ab    G</c>
+  Com uma só voz Vamos   celebrar 
+
+  <d>Coro:</d>
+  Tom: <c>G</c>
+
+  <c>G        D/G          D/F#  Em7 D/E_Em7</c>
+  Vamos celebrar com a - le - gri - a
+  <c>G/C Gsus2/C G/D</c> 
+  É    na  -  tal
+  <c>G     D/G                     D/F#  Em7 D/E_Em7</c>
+  Cristo veio a este mundo que a-le - gri - a 
+  <c>G/C Gsus2/C G/D </c>
+  É natal
+
+  <d>Coro:</d>
+
+  <c>G        D/G                    D/F#  Em7 D/E_Em7</c>
+  Ouçam os sinos tocando a melodi - a
+  <c>Em7 Bm7 Em7   D  G/C   G/D </c>
+  De boas novas de a - legria
+  <c>G           G                        D/F#  </c>
+  Paz sobre a Terra e a todos, felicida-de
+  <c>Em7   Bm7 Em7    D G/C Gsus2/C G/D </c>
+  Cantam os anjos, o Rei   Nas - ceu
+
+  <d>Coro:</d>
+
+  <c>G        D/G                    D/F#  Em7 D/E_Em7</c>
+  Ouçam os sinos tocando a melodi - a
+  <c>Em7 Bm7 Em7   D  G/C   G/D </c>
+  De boas novas de a - legria
+  <c>G           G                        D/F#  </c>
+  Paz sobre a Terra e a todos, felicida-de
+  <c>Em7   Bm7 Em7    D G/C  Gsus2/C D        G</c>
+  Cantam os anjos, é noi - te     de     natal
+
+  <d>Final:</d>
+  <c>G G/F# Em G/D Cmaj7 G2/B Cmaj7 Am7 G/D D </c>
+  <c>G Bm/F# Em G/D Cmaj7 G2/B Cmaj7 G/D D E7M</c>
+    `
+}
 
 function adore() {
   let thisText = document.getElementById('music-text')
