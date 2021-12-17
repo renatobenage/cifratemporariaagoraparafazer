@@ -23,6 +23,7 @@ function buttonMusic() {
   // ];
   
   let musicArray = [
+    'Adore',
     'A Esperança É Jesus',
     'Achei Um Grande Amigo / Lar Feliz',
     'Aclame Ao Senhor',
@@ -32,6 +33,7 @@ function buttonMusic() {
     'Castelo',
     'Chegou A Hora JA21',
     'Como Agradecer 249',
+    'Criança da Promessa',
     'Derramo Minha Vida',
     'Digo De Louvor',
     'Ele Me Amparou',
@@ -100,6 +102,7 @@ function buttonMusic() {
   
   // Incluir uma variável
   let musicVariable = [
+    'javascript:adore()',
     'javascript:aEsperancaEJesus()',
     'javascript:acheiUmGrandeAmigoLarFeliz()',
     'javascript:aclameAoSenhorDianteDoTroco()',
@@ -109,6 +112,7 @@ function buttonMusic() {
     'javascript:castelo()',
     'javascript:chegouAHoraJA21()',
     'javascript:comoAgradecer()',
+    'javascript:criancaDaPromessa()',
     'javascript:derramoMinhaVida()',
     'javascript:dignoDeLouvor()',
     'javascript:eleMeAmparou()',
@@ -225,6 +229,7 @@ function buttonMusic2() {
     'Nos Braços De Jesus',
     'Olhe Ao Redor',
     'Criança Da Promessa',
+    'Adore',
   ];
   // Incluir uma variável
   let musicVariable = [
@@ -235,6 +240,7 @@ function buttonMusic2() {
     'javascript:nosBracosDeJesus()',
     'javascript:olheAoRedor()',
     'javascript:criancaDaPromessa()',
+    'javascript:adore()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -265,6 +271,120 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function adore() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Adore (Chris Tomlin)</h3>
+  Tom: <c>G</c>
+
+  Intro: <c>A2 Amaj7 D/A Dmaj9 D6 Dmaj9</c>
+
+  <d>Versus:</d>
+
+  <c>A   D/A    E/A</c>
+  Até nós descestes
+  <c>E/F#  F#m C#m/E D2</c>
+  Vin - do   do   céu
+  <c>D    E/D    A/C#   Bm7   Esus E</c>
+  Homem se tornou, E-ma - nuel
+  <c>A    D/A   E/A</c>
+  Numa manjedoura
+  <c>E/F#  F#m  C#m/E D2</c>
+  Sim - ples nas - ceu
+  <c>D    E/D   A/C#</c>
+  Para nos salvar
+  <c>  Bm7  Esus</c>
+  E resgatar
+
+  <d>Coro:</d>
+
+  <c>    A2</c>
+  Louvai
+  <c>Bm7        A2/C#</c>
+  Venha O adorar
+  <c>   D  E/D D/E Bm/E F#m2 E/G#      A2</c>
+  Oh Ve-nha a - do - rá - lo,  Ao Deus
+  <c>Bm7          A/C#</c>
+  Homem que se fez
+  <c>   D    E/D D/E Bm/E F#m2 E/G#</c>
+  Oh ve - nha a - do - ra - lo
+  <c>E7sus A2   ( Dmaj9 D2 )</c>
+  Lou - vai
+
+  Tom: <c>Bb</c>
+
+  <d>Versus:</d>
+
+  <c>   Bb/F</c>
+  Os Sábios e Pastores
+  <c>F/G Gm Dm/F  Eb2</c>
+  A   se cur - var
+  <c>Eb   F/Eb   Bb/D   Cm7    Fsus F</c>
+  Anjos lá no céu  à paz cantar
+  <c>Bb    EbBb  F/Bb</c>
+  Hoje oferecemos
+  <c>F/G Gm  Dm/F Ebmaj7</c>
+  Em  seu al - tar
+  <c>Eb     F/Eb     Bb/D   Cm7     Fsus F</c>
+  Nos - so res-pi-rar, e nosso amor
+
+  <d>Coro:</d>
+
+  <c>   Bb2</c>
+  Louvai
+  <c>Cm7        Bb2/D </c>
+  Venha O adorar
+  <c>   Eb F/Eb Eb/F Cm/F Gm2 F/A      Bb2</c>
+  Oh Ve-nha   a - do - rá - lo, Ao Deus
+  <c>Cm7          Bb2/D</c>
+  Homem que se fez
+  <c>   Eb   F/Eb Eb/F Cm/F Gm2  F/A </c>
+  Oh ve - nha   a - do - ra - lo
+  <c>F7sus Bb2</c>
+  Lou - vai
+
+  <d>Ponte:</d>
+
+  <c>Bb2         Cm7                         Bb/D</c>
+    Todo Céu a cantar para o Rei dos reis
+  <c>Bb/D            Eb2             Gm2</c>
+    O Bebê que nasceu para nos salvar
+  <c>             F2/A </c>
+  E nos libertar
+  <c>Bb2         Cm7                         Bb/D</c>
+    Todo Céu a cantar para o Rei dos reis
+  <c>Bb/D            Eb2             Gm2</c>
+    O Bebê que nasceu para nos salvar
+  <c>            F2/A </c>
+  E nos libertar
+
+  Tom: <c>C </c>
+
+  <d>Coro:</d>
+
+  <c>   C</c>
+  Louvai
+  <c>Dm7        C/E</c>
+  Venha O adorar
+  <c>   F  G/F F/G Dm/G  Am2 G/B      C2</c>
+  Oh Ve-nha  a - do - rá - lo, Ao Deus
+  <c>Dm7          D/E </c>
+  Homem que se fez
+  <c>   F  G/F F/G Dm/G  Am2 G/B </c>
+  Oh ve-nha  a - do - ra - lo
+  <c>G7sus C2   ( Cmaj7 F/C Fmaj9 F6 Fmaj9 )</c>
+  Lou - vai
+
+  <d>Final:</d>
+
+  <c>   C2                  F</c>
+  Oh venha adorá - lo
+  <c>Fmaj7/A   G/B  C2    ( Fmjaj9 F6 Fmaj9 F6 C2 )</c>
+  A         Je - sus 
+    `
+}
 
 function criancaDaPromessa() {
   let thisText = document.getElementById('music-text')
