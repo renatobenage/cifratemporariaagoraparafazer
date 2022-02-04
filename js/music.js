@@ -63,6 +63,7 @@ function buttonMusic() {
     'Não Desanimamos',
     'Não Desistir 150',
     'Não Há O Que Temer',
+    'Não Mais Eu (Celebra SP)',
     'Não Tardará',
     'Noite De Natal',
     'Nos Braços De Jesus',
@@ -143,6 +144,7 @@ function buttonMusic() {
     'javascript:naoDesanimamos()',
     'javascript:naoDesistir150()',
     'javascript:naoHaOQueTemer()',
+    'javascript:naoMaisEuCelebraSP()',
     'javascript:naoTardara()',
     'javascript:noiteDeNatal()',
     'javascript:nosBracosDeJesus()',
@@ -224,27 +226,25 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Rei dos Reis 73',
-    'Maranata Avivah',
-    'Não Há O Que Temer',
+    'Maravilhas',
+    'Não Mais Eu (Celebra SP)',
+    'Derramo Minha Vida',
+    'Eu Pertenço a Luz',
+    'Eu Me Rendo (Vocal Livre)',
+    'Porque Ele Vive',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
-    'Olhe Ao Redor',
-    'Criança Da Promessa',
-    'Adore',
-    'Noite De Natal',
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:reiDosReis73()',
-    'javascript:maranataAvivah()',
-    'javascript:naoHaOQueTemer()',
+    'javascript:maravilhasCDJovem()',
+    'javascript:naoMaisEuCelebraSP()',
+    'javascript:derramoMinhaVida()',
+    'javascript:euPertencoALuz()',
+    'javascript:euMeRencoVocalLivre()',
+    'javascript:porqueEleVive()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
-    'javascript:olheAoRedor()',
-    'javascript:criancaDaPromessa()',
-    'javascript:adore()',
-    'javascript:noiteDeNatal()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -275,6 +275,217 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function naoMaisEuCelebraSP() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+    <pre>
+  <h3>Não Mais Eu ( Celebra SP )</h3>
+  Tom: <c>D</c> 
+
+  Intro: <c>Bm7 Dmaj7 Dmaj9/F# Gmaj7</c>
+         <c>Bm7 Dmaj7 Dmaj9/F# Gmaj7</c>
+
+  <c>        D</c> 
+  Foi na cruz, foi na cruz
+  <c>          A4</c> 
+  Em que ao fim percebi
+  <c>      Em7              Bm7</c> 
+  Meu pecado recaiu em Jesus
+  <c>      G                     D</c> 
+  Foi então pela fé, que meus olhos abri
+  <c>       A4         A            D</c> 
+  Que prazer sinto agora em sua cruz
+  
+  <c>    A4          A</c> 
+  Eu irei para a cruz
+  <c>      G        D</c> 
+  Onde pude perceber
+  <c>      A4           A      G  D</c> 
+  Esse amor que por mim foi pago
+  <c>    A4       A</c> 
+  Sua mão me curou
+  <c>     G          Bm</c> 
+  Sua morte me salvou
+  <c>    G6       A4          D</c> 
+  Eu irei, eu irei para a cruz
+  
+  <c>        D</c> 
+  Quão perdido estou
+  <c>       A4</c> 
+  Quão vazio o coração
+  <c>        Em7             Bm7</c> 
+  Não sou digno de tanto amor
+  <c>       G                    D</c> 
+  Foi então pela fé, que meus olhos abri
+  <c>       A4         A            D</c> 
+  Que prazer sinto agora em sua cruz
+  
+  <c>    A4          A</c> 
+  Eu irei para a cruz
+  <c>      G        D</c> 
+  Onde pude perceber
+  <c>      A4           A      G  D</c> 
+  Esse amor que por mim foi pago
+  <c>    A4       A</c> 
+  Sua mão me curou
+  <c>     G          Bm</c> 
+  Sua morte me salvou
+  <c>    G6       A4          D</c> 
+  Eu irei, eu irei para a cruz
+
+  <d>Intro:</d> <c>Bm7 Dmaj7 Dmaj9/F# Gmaj7</c> 
+  
+  <c>         Bm7</c> 
+  Não mais eu, não mais eu
+  <c>   Dmaj7</c> 
+  É Jesus quem vive em mim
+  <c>Dmaj9/F#</c> 
+  Cristo vive em mim
+  <c>Gmaj7</c> 
+  Cristo vive em mim
+  
+  <c>         Bm7</c> 
+  Não mais eu, não mais eu
+  <c>   Dmaj7</c> 
+  É Jesus quem vive em mim
+  <c>Dmaj9/F#</c> 
+  Cristo vive em mim
+  <c>Gmaj7</c> 
+  Cristo vive em mim
+  
+  <c>         Bm7</c> 
+  Não mais eu, não mais eu
+  <c>   Dmaj7</c> 
+  É Jesus quem vive em mim
+  <c>Dmaj9/F#</c> 
+  Cristo vive em mim
+  <c>Gmaj7</c> 
+  Cristo vive em mim
+  
+  <c>    A4          A</c> 
+  Eu irei para a cruz
+  <c>      G        D</c> 
+  Onde pude perceber
+  <c>      A4           A      G  D</c> 
+  Esse amor que por mim foi pago
+  <c>    A4       A</c> 
+  Sua mão me curou
+  <c>     G          Bm7</c> 
+  Sua morte me salvou
+
+  <d>Versão Joyce</d>
+
+  <c>G6       A4              D</c> 
+  Eu irei, eu irei para a cruz
+  <c>    G6       A4          Bm7</c> 
+  Eu irei, eu irei para a cruz
+
+  <d>Final:</d> <c>Bm7 Dmaj7 Dmaj9/F# Gmaj7</c> 
+
+
+  <d>Versão CELEBRA SP</d>
+
+  <c>    G6       A4          Em7 D/F#</c> 
+  Eu irei, eu irei para a cruz
+  <c>    G6       A4          Bm7 </c> 
+  Eu irei, eu irei para a cruz
+
+  <d>Final:</d> <c>Bm7 Dmaj7 Dmaj9/F# Gmaj7</c> 
+          <c>Bm7 Dmaj7 Dmaj9/F# Gmaj7</c> 
+    `
+}
+
+function maravilhasCDJovem() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Maravilhas</h3>
+  Tom: <c>E</c>
+
+  Intro: <c>E E Esus4 E Esus4 A A/B E</c>
+
+  <c>    A B  E      A9    C#m  B</c>
+  Meu coração se alegra no Senhor
+  <c>    A    B  E      D9</c>
+  Proclama a Sua grandeza
+  <c>  A/C# B   E    A     C#m   B</c>
+  O Seu  perdão alcança todos nós
+  <c>    A  B       E       D9</c>
+  Sua graça nos cobre de bênçãos
+  
+  <c>    E/G# A    B4  B   E/G#   A      B4</c>  
+  Seu nome santo é,      santo é o Senhor
+  
+  <c>            E                       B</c>
+  Maravilhas Ele fez, nos mostrou o Seu poder
+  <c>              C#m     A     B4     B  A</c>
+  Ele é o nosso Rei dos reis, Jesus
+  <c>            E               B</c>
+  Maravilhas Ele fez, Ele operou e mim                
+  <c>              C#m   A   C#m  B4  B A</c>
+  Seu poder me resgatou, Je - sus
+
+    ( <c>E Esus4 A A/B E</c> )
+  
+  <c>    A B  E      A9    C#m  B</c>
+  Meu coração se alegra no Senhor
+  <c>    A    B  E      D9</c>   ( <c>A B C# D C# B A B C# B</c>)
+  Proclama a Sua grandeza
+  <c>  A/C# B   E    A     C#m   B</c>
+  O Seu  perdão alcança todos nós
+  <c>    A  B       E       D9</c>
+  Sua graça nos cobre de bênçãos
+  
+  <c>    E/G# A    B4  B   E/G#   A      B4  </c>
+  Seu nome santo é,      santo é o Senhor
+  
+  <c>            E                       B</c>
+  Maravilhas Ele fez, nos mostrou o Seu poder
+  <c>              C#m     A     B4     B  A</c>
+  Ele é o nosso Rei dos reis, Jesus
+  <c>            E               B</c>
+  Maravilhas Ele fez, Ele operou e mim                
+  <c>              C#m   A   C#m  B4  B A</c>
+  Seu poder me resgatou, Je - sus
+  
+  <c>      A       E          B        C#m</c>
+  O Seu nome eu vou louvar e vou cantar
+  <c>    A       E          B       </c> 
+  Seu nome eu vou louvar e vou cantar
+  <c>    A       E          B        C#m</c>
+  Seu nome eu vou louvar e vou cantar
+  <c>    A       E           B      </c>   
+  Seu nome eu vou louvar, vou cantar
+  
+  <c>      A       E          B        C#m</c>
+  O Seu nome eu vou louvar e vou cantar
+  <c>    A       E          B        </c>
+  Seu nome eu vou louvar e vou cantar
+  <c>    A       E          B        C#m</c>
+  Seu nome eu vou louvar e vou cantar
+  <c>    A       A           B B        B B A </c>        
+  Seu nome eu vou louvar, vou cantar
+  
+  <c>            E                       B</c>
+  Maravilhas Ele fez, nos mostrou o Seu poder
+  <c>              C#m     A     C#m  B4  B9 A9</c>
+  Ele é o nosso Rei dos reis, Je - sus
+  <c>            E               B</c>
+  Maravilhas Ele fez, Ele operou e mim                
+  <c>              A    E    C#m  B4  B A</c>
+  Seu poder me resgatou, Je - sus
+  
+  <c>      E</c>
+  O Seu nome eu vou louvar e vou cantar
+  <c>    B</c>
+  Seu nome eu vou louvar e vou cantar
+  <c>    A       A          E        C#m</c>
+  Seu nome eu vou louvar e vou cantar
+  <c>      B4                  B9  B9      A9 B9 A9 E</c>
+  O Seu nome eu vou louvar, vou cantar
+    `
+}
 
 function noiteDeNatal() {
   let thisText = document.getElementById('music-text')
