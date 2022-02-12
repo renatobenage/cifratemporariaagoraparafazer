@@ -3116,83 +3116,83 @@ function levantoACruzAdoradores() {
   let thisText = document.getElementById('music-text')
   thisText.innerHTML = `
     <pre>
-    <h3>Levanto a Cruz (Adoradores 4)</h3>
-    Tom: <c>C</c>
+  <h3>Levanto a Cruz (Adoradores 4)</h3>
+  Tom: <c>C</c>
 
-    [Intro] <c>C  F/C  C   G  Am  C/E F</c>
-            <c>C  F/C  C   G  Am  C/E F</c>
-    
-    <c>C        F/C    C     G       Am</c>
-      Levanto a  cruz; a cruz de Jesus
-    <c>   C/E       F    C           F/C    C      G      Am</c>
-    Proclamo seu nome,  para que toda  terra conheça o Pai
-    <c>   C/E              F             F   Am     G</c>
-    Me prosto aos teus pés, Cristo um dia se fez homem
-    <c>            F/A   C/E   F              F     Am   G</c>
-    Vencendo a morte com poder e com seus braços estendidos
-    <c>          F/A          C/E         F   F</c>
-    Sobre uma cruz nos deu vida outra vez
-    
-    <c>          C           Am    G</c>
-    Rei vitorioso; Cristo Je - sus
-    <c>         Am        C/E      F</c>
-    Filho de Deus nós estamos aqui
-    <c>           C            Am   G</c>
-    Não por direito ou mérito algum
-    <c>    Am            C/E   F    F</c>
-    Na cruz nos somos resgatados
-    
-    <c>C        F/C    C     G       Am</c>
-      Levanto a  cruz; a cruz de Jesus
-    <c>   C/E        F   C          F/C     C      G      Am</c>
-    Proclamo seu nome,  para que toda  terra conheça o Pai
-    <c>   C/E              F              F  Am      G</c>
-    Me prosto aos teus pés, Cristo um dia se fez homem
-    <c>            F/A   C/E   F               F    Am   G</c>
-    Vencendo a morte com poder e com seus braços estendidos
-    <c>          F/A          C/E         F   F</c>
-    Sobre uma cruz nos deu vida outra vez
-    
-    <c>          C           Am    G</c>
-    Rei vitorioso; Cristo Je - sus
-    <c>         Am        C/E      F</c>
-    Filho de Deus nós estamos aqui
-    <c>           C            Am   G</c>
-    Não por direito ou mérito algum
-    <c>    Am            C/E   F  </c>  
-    Na cruz nos somos resgatados
-    
-    <c>          C           Am    G</c>
-    Rei vitorioso; Cristo Je - sus
-    <c>         Am        C/E      F</c>
-    Filho de Deus nós estamos aqui
-    <c>           C            Am   G</c>
-    Não por direito ou mérito algum
-    <c>    Am            C/E   F  </c>  
-    Na cruz nos somos resgatados
-    
-    <c>          C           Am    G</c>
-    Rei vitorioso; Cristo Je - sus
-    <c>         Am        C/E      F</c>
-    Filho de Deus nós estamos aqui
-    <c>           C            Am   G</c>
-    Não por direito ou mérito algum
-    <c>    Am            C/E   F  </c>  
-    Na cruz nos somos resgatados
-    
-    <c>C      G      Am    C/E  F </c>  
-    Santo, Santo, San - to  Deus
-    <c>C      G      Am    C/E  F</c>
-    Santo, Santo, San - to  Deus
-    <c>C      G      Am    C/E  F    F C</c>
-    Santo, Santo, San - to  Deus
-    <c>C      G      Am    C/E  F    F C</c>
-    Santo, Santo, San - to  Deus....
-    
-    <c>C        F/C  C       G        Am</c>
-      Levanto a  cruz; a cruz de Jesus
-    <c>    G         F</c>
-    Proclamo seu nome
+  [Intro] <c>C  F/C  C   G  Am  C/E F</c>
+          <c>C  F/C  C   G  Am  C/E F</c>
+  
+  <c>C        F/C    C     G       Am</c>
+    Levanto a  cruz; a cruz de Jesus
+  <c>   C/E       F    C           F/C    C      G      Am</c>
+  Proclamo seu nome,  para que toda  terra conheça o Pai
+  <c>   C/E              F             F   Am     G</c>
+  Me prosto aos teus pés, Cristo um dia se fez homem
+  <c>            F/A   C/E   F              F     Am   G</c>
+  Vencendo a morte com poder e com seus braços estendidos
+  <c>          F/A          C/E         F   F</c>
+  Sobre uma cruz nos deu vida outra vez
+  
+  <c>          C           Am    G</c>
+  Rei vitorioso; Cristo Je - sus
+  <c>         Am        C/E      F</c>
+  Filho de Deus nós estamos aqui
+  <c>           C            Am   G</c>
+  Não por direito ou mérito algum
+  <c>    Am            C/E   F    F</c>
+  Na cruz nos somos resgatados
+  
+  <c>C        F/C    C     G       Am</c>
+    Levanto a  cruz; a cruz de Jesus
+  <c>   C/E        F   C          F/C     C      G      Am</c>
+  Proclamo seu nome,  para que toda  terra conheça o Pai
+  <c>   C/E              F              F  Am      G</c>
+  Me prosto aos teus pés, Cristo um dia se fez homem
+  <c>            F/A   C/E   F               F    Am   G</c>
+  Vencendo a morte com poder e com seus braços estendidos
+  <c>          F/A          C/E         F   F</c>
+  Sobre uma cruz nos deu vida outra vez
+  
+  <c>          C           Am    G</c>
+  Rei vitorioso; Cristo Je - sus
+  <c>         Am        C/E      F</c>
+  Filho de Deus nós estamos aqui
+  <c>           C            Am   G</c>
+  Não por direito ou mérito algum
+  <c>    Am            C/E   F  </c>  
+  Na cruz nos somos resgatados
+  
+  <c>          C           Am    G</c>
+  Rei vitorioso; Cristo Je - sus
+  <c>         Am        C/E      F</c>
+  Filho de Deus nós estamos aqui
+  <c>           C            Am   G</c>
+  Não por direito ou mérito algum
+  <c>    Am            C/E   F  </c>  
+  Na cruz nos somos resgatados
+  
+  <c>          C           Am    G</c>
+  Rei vitorioso; Cristo Je - sus
+  <c>         Am        C/E      F</c>
+  Filho de Deus nós estamos aqui
+  <c>           C            Am   G</c>
+  Não por direito ou mérito algum
+  <c>    Am            C/E   F  </c>  
+  Na cruz nos somos resgatados
+  
+  <c>C      G      Am    C/E  F </c>  
+  Santo, Santo, San - to  Deus
+  <c>C      G      Am    C/E  F</c>
+  Santo, Santo, San - to  Deus
+  <c>C      G      Am    C/E  F    F C</c>
+  Santo, Santo, San - to  Deus
+  <c>C      G      Am    C/E  F    F C</c>
+  Santo, Santo, San - to  Deus....
+  
+  <c>C        F/C  C       G        Am</c>
+    Levanto a  cruz; a cruz de Jesus
+  <c>    G         F</c>
+  Proclamo seu nome
     `
 }
 
