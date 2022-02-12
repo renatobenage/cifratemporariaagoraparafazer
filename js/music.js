@@ -35,6 +35,7 @@ function buttonMusic() {
     'Como Agradecer 249',
     'Criança da Promessa',
     'Derramo Minha Vida',
+    'Descansar (CD Jovem)',
     'Digo De Louvor',
     'Ele Me Amparou',
     'Em Espírito, Em Verdade',
@@ -116,6 +117,7 @@ function buttonMusic() {
     'javascript:comoAgradecer()',
     'javascript:criancaDaPromessa()',
     'javascript:derramoMinhaVida()',
+    'javascript:descansarCDJovem()',
     'javascript:dignoDeLouvor()',
     'javascript:eleMeAmparou()',
     'javascript:emEspiritoEmVerdade()',
@@ -226,23 +228,17 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Maravilhas',
-    'Não Mais Eu (Celebra SP)',
-    'Derramo Minha Vida',
-    'Eu Pertenço a Luz',
-    'Eu Me Rendo (Vocal Livre)',
-    'Porque Ele Vive',
+    'Descansar (CD Jovem)',
+    'Tudo Por Ele',
+    'Levanto A Cruz',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:maravilhasCDJovem()',
-    'javascript:naoMaisEuCelebraSP()',
-    'javascript:derramoMinhaVida()',
-    'javascript:euPertencoALuz()',
-    'javascript:euMeRencoVocalLivre()',
-    'javascript:porqueEleVive()',
+    'javascript:descansarCDJovem()',
+    'javascript:tudoPorEle()',
+    'javascript:levantoACruzAdoradores()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
   ]
@@ -275,6 +271,82 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function descansarCDJovem() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+    <pre>
+  <h3>Descansar (CD Jovem)</h3>
+  Tom: <c>G</c>
+
+  Intro: <c>Bm7  A  Em7  Bm7  A  G2  </c>
+         <c>Bm7  A  Em7  Bm7  A  G2  D </c>
+
+  <c>            Em7/G </c>
+  Não quero viver pensando no amanhã 
+  <c>         A/D    D </c>
+  eu quero ser feliz 
+  <c>     Em7/G </c>
+  Dias vem e vão não irei temer  
+  <c>          A/D    D</c>
+  posso confiar em Ti 
+  <c>Bm7              G2  </c>     
+    Se o futuro incerto é 
+  <c>Bm7                  G2 </c>          
+    basta olhar com os olhos da fé      
+  <c>  A9(4)</c>
+  E  descansar nos braços do Pai 
+
+  <c>Bm7    A9       Em7      G9 </c>
+  Descansar  confiando em Tua proteção 
+  <c>Bm7    A9         Em7      G9 </c>
+  Descansar  vou me entregar em tuas mãos 
+  <c>Bm7    A9         Em7        G9       G9</c>
+  Descansar sei que cuidará de mim Senhor  
+  <c>  Em7  D/F#   G      </c>           
+  Ensina-me   a descansar 
+
+  (<c> Cadd9   Bm7  A  G9  G9  D</c> )
+
+  <c>    Em7/G </c>
+  Cada passo que eu der seja aonde estiver 
+  <c>           A/D    D </c>
+  Quero entregar a Ti 
+  <c>    Em7/G                             A/D  D </c>
+  Cada decisão vou depor em Tuas mãos e esperar 
+  <c>Bm7                 G9 </c>
+    Se das aves Deus cuida 
+  <c>        Bm7         F#m/A    G9 </c>
+  Sei que tenho muito mais  valor 
+  <c>      Em7    Cmaj7 </c>
+  Posso esperar    e descansar nos braços do Pai 
+
+  <c>Bm7    A9       Em7      G9 </c>
+  Descansar  confiando em Tua proteção 
+  <c>Bm7    A9         Em7      G9 </c>
+  Descansar  vou me entregar em tuas mãos 
+  <c>Bm7    A9         Em7        G9       G9</c>
+  Descansar sei que cuidará de mim Senhor  
+  <c>  Em7  D/F#   G    </c>             
+  Ensina-me   a descansar 
+
+  <c>C                   G/B            A/D    D </c>
+  Só em Teus braços encontro paz pra repousar 
+  <c>C              G/B            Em7   D/F#  G2 </c>
+  Mesmo que os temores me vençam  vou descansar. 
+
+  <c>C#m7  B9     F#m7     A9 </c>
+          Confiando em Tua proteção 
+  <c>C#m7  B9       F#m7     A9 </c>
+          Vou me entregar em tuas mãos 
+  <c>C#m7  B9        F#m7    A9         D9 </c>
+          Sei que cuidará de mim Senhor 
+  <c>  F#m7     A9      </c>     
+  Ensina-me a descansar 
+
+  (<c> C#m7  B9  F#m7  Dmja7  E  E </c>)
+    `
+}
 
 function naoMaisEuCelebraSP() {
   let thisText = document.getElementById('music-text')
