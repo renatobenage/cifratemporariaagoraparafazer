@@ -47,6 +47,7 @@ function buttonMusic() {
     'Eu Pertenço A Luz',
     'Fiel A Toda Prova',
     'Fixa Teus Olhos No Mestre',
+    'Grande Alegria HA 489',
     'Grande Deus Adoradores',
     'Hino Dos Desbravadores',
     'Hoje Aqui',
@@ -129,6 +130,7 @@ function buttonMusic() {
     'javascript:euPertencoALuz()',
     'javascript:fielATodaProva()',
     'javascript:fixaTeusOlhosNoMestre()',
+    'javascript:grandeAlegriaHA489()',
     'javascript:grandeDeusAdoradores()', 
     'javascript:hinoDosDesbravadores()',   
     'javascript:hojeAqui()',
@@ -230,6 +232,8 @@ function buttonMusic2() {
   let musicArray = [
     'Descansar (CD Jovem)',
     'Tudo Por Ele',
+    'Como Agradecer',
+    'Grande Alegria HA 489',
     'Levanto A Cruz',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
@@ -238,6 +242,8 @@ function buttonMusic2() {
   let musicVariable = [
     'javascript:descansarCDJovem()',
     'javascript:tudoPorEle()',
+    'javascript:comoAgradecer()',
+    'javascript:grandeAlegriaHA489()',
     'javascript:levantoACruzAdoradores()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
@@ -271,6 +277,140 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function grandeAlegriaHA489() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+    <pre>
+  <h3>Grande Alegria HA 489</h3>
+  Tom: <c>F</c>
+  
+  <d>Coro:</d>
+
+  <c>C         F        F7</c>
+  Grande alegria inundou
+  <c>        Bb</c>
+  Meu coração
+  <c>        F/C</c>
+  Ao descobrir que Cristo
+  <c>Dm7         G7  C7</c>
+  Logo vai voltar!
+  <c>C7         F         F7</c>
+  Grande alegria explodiu
+  <c>      Bb</c>
+  A emoção
+  <c>B°       F/C </c>   
+  Pelo que Cristo fez
+  <c>  Bb/C    C7     F  F7</c>
+  E faz pra me salvar
+  
+  <d>Versus:</d>
+
+  <c>  Bb</c>
+  Olhando ao redor
+  <c>    C/Bb      Am7  Dm7</c>
+  Eu ve - jo a dor
+  <c>    Gm7           C7    F  F7</c>
+  Pessoas sofrendo sem amor
+  <c>  Bb</c>
+  Comendo miséria
+  <c>C/Bb    Am7    Dm7</c>
+  Pa - ra não morrer
+  <c>    G7      F/A</c>
+  Tentando na vi - da
+  <c>C#/A#  B° C4   C7</c>
+  Não    sofrer!
+  
+  <c>  Bb</c>
+  Olhando ao redor
+  <c>  C/Bb  Am7  Dm7</c>
+  Eu vejo fé
+  <c>    Gm7</c>
+  Num mundo que
+  <c>        C7   F2  F7</c>
+  Quer mudar até
+  <c>    Bb</c>
+  Mas esta mudança
+  <c>C/Bb     Am7    Dm7</c>
+  Nun - ca vai chegar
+  <c>    Gm7</c>
+  Se não quando
+  <c>        Bbm7/Db     C   C7</c>
+  Cristo  re - tor - nar
+  
+  <d>Coro:</d>
+
+  <c>C         F        F7</c>
+  Grande alegria inundou
+  <c>        Bb</c>
+  Meu coração
+  <c>        F/C</c>
+  Ao descobrir que Cristo
+  <c>Dm7         G7  C7</c>
+  Logo vai voltar!
+  <c>C7         F         F7</c>
+  Grande alegria explodiu
+  <c>      Bb</c>
+  A emoção
+  <c>B°       F/C  </c>  
+  Pelo que Cristo fez
+  <c>  Bb/C    C7     F  F7</c>
+  E faz pra me salvar
+  
+  <d>Versus:</d>
+  
+  <c>    Bb</c>
+  Olhando ao redor
+  <c>    C/Bb   Am7  Dm7</c>
+  Eu vejo o fim
+  <c>    Gm7</c>
+  De tudo que tem
+  <c>  C7       F  F7</c>
+  Valor pra mim
+  <c>    Bb</c>
+  Os sonhos da vida
+  <c>C/Bb  Am7   Dm7</c>
+  Todos pelo chão
+  <c>  G7      F/A    C#/A# B°   C4   C7</c>
+  O mundo é só de - so - la - ção
+  
+  <c>    Bb</c>
+  Olhando ao redor
+  <c>    C/Bb   Am7  Dm7</c>
+  Eu vejo o céu
+  <c>  Gm7</c>
+  Fechado e coberto
+  <c>C7     F2  F7</c>
+  Por um véu
+  <c>  Bb</c>
+  O brilho do mundo
+  <c>  C/Bb    Am7      Dm7</c>
+  Então se  a - pa - gou
+  <c>    Gm7</c>
+  E a vinda de Cristo
+  <c>  Bbm7/Db      C   C7</c>
+  Então     brilhou
+
+  <d>Coro:</d>
+  
+  <c>C         F        F7</c>
+  Grande alegria inundou
+  <c>        Bb</c>
+  Meu coração
+  <c>        F/C</c>
+  Ao descobrir que Cristo
+  <c>Dm7         G7  C7</c>
+  Logo vai voltar!
+  <c>C7         F         F7</c>
+  Grande alegria explodiu
+  <c>      Bb</c>
+  A emoção
+  <c>B°       F/C    </c>
+  Pelo que Cristo fez
+  <c>  Bb/C    C7     F  F7</c>
+  E faz pra me salvar
+    `
+}
 
 function descansarCDJovem() {
   let thisText = document.getElementById('music-text')
