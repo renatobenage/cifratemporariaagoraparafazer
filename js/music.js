@@ -32,6 +32,7 @@ function buttonMusic() {
     'Bendito Seja O Senhor / Oh Que Esperança',
     'Castelo',
     'Chegou A Hora JA21',
+    'Comigo - Leonardo Gonçalves',
     'Como Agradecer 249',
     'Criança da Promessa',
     'Derramo Minha Vida',
@@ -115,6 +116,7 @@ function buttonMusic() {
     'javascript:benditoSejaOSenhorHoQueEsperanca()',
     'javascript:castelo()',
     'javascript:chegouAHoraJA21()',
+    'javascript:comigoLeonardo()',
     'javascript:comoAgradecer()',
     'javascript:criancaDaPromessa()',
     'javascript:derramoMinhaVida()',
@@ -237,6 +239,7 @@ function buttonMusic2() {
     'Levanto A Cruz',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
+    'Comigo - Leonardo Gonçalves',
   ];
   // Incluir uma variável
   let musicVariable = [
@@ -247,6 +250,7 @@ function buttonMusic2() {
     'javascript:levantoACruzAdoradores()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
+    'javascript:comigoLeonardo()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -277,6 +281,94 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function comigoLeonardo() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+    <pre>
+  <h3>Comigo - Leonardo Gonçalves</h3>
+  Tom: <c>F</c>
+
+  Intro: 
+
+  <d>Versus:</d>  
+  <c>                Bbmaj7 C/Bb </c>
+  Cristo é meu pastor
+  <c>          F  F4  F</c>
+  Nada faltará
+  <c>           Bbmaj7 C/Bb  </c>
+  Seja aonde for
+  <c>Em79(b13/#9)             F7M  Cm7</c>
+      Sem - pre        guiará
+  <c> Bm7(b5)       Bbmaj7     Em79   A7(b13#9)  </c>
+  Ainda que eu andasse pelo vale
+  <c>   Dm7(9)            Cm7 Bm7(5-) </c>
+  De morte e es - cu - ri - dão
+  <c>           Gm7  C7sus</c>
+  Eu não temerei
+  <c>                F  F4  F</c>
+  Cristo é meu pastor
+  
+  <d>Coro:</d>
+  
+  <c>           Bb7M  C/Bb</c>
+  Eu não temerei
+  <c>           Fmaj7/A  Dm7</c>
+  Tu estás comigo
+  <c>Csus       Bb7M  C/Bb</c>
+  Eu não temerei
+  <c>E7(b13/#9)         Fmaj7  Eb/G</c>
+  Tu       és meu pastor
+  <c>F/A        Bbmaj7 Em7(b5)</c>
+  Eu não temerei
+  <c>     A7  G/B A/C#  Dm7  G7(#11/13)</c>
+  Pois Tu  es__tás  comigo, oh
+  <c>      G7         Gm7 F7M(9)/A Bb6 C7(4/9)</c>
+  Sim, Tu estás comigo
+  <c>              F C7/F Bb/F F</c>
+  Tu és meu pastor
+  
+  <d>Versus:</d>
+  
+  <c>                Bbmaj7 C/Bb </c>
+  Cristo é meu pastor
+  <c>          F  F4  F</c>
+  Nada faltará
+  <c>           Bbmaj7 C/Bb</c>
+  Seja aonde for
+  <c>Em79(b13/#9)             F7M  Cm7</c>
+      Sem - pre        guiará
+  <c>  Bm7(b5)     Bbmaj7    Em79   A7(b13#9) </c>
+  É certo que a Tua misericórdia
+  <c>     Dm7(9)    Cm7 Bm7(5-)</c>
+  E bondade me seguirão
+  <c>         Gm7  C7sus</c>
+  Eu habitarei
+  <c>              F  F4  F</c>
+  Na casa do Senhor
+  
+  <d>Coro:</d>
+  
+  <c>           Bb7M  C/Bb</c>
+  Eu não temerei
+  <c>          Am7   Dm7</c>
+  Tu estás comigo
+  <c>Cm79   F7(13)    Bb/D E7(b13/#9)</c>
+  Eu não te - me - rei
+  <c>C7sus(b9)           Fmaj7/C Eb</c>
+  Tu       és meu pas - tor
+  <c>F7         Bbmaj7 Em7(b5)</c>
+  Eu não temerei
+  <c>     A7  G/B A/C#  Dm7  G7(#11/13)</c>
+  Pois Tu  es__tás  comigo, oh
+  <c>      G7          Gm7 F7M(9)/A Bb6 C7(4/9)</c>
+  Sim, Tu estás comigo
+  <c>              F Fsus F</c>
+  Tu és meu pastor
+  
+  ( <c>Gm7 C7sus F C/F Bb/F F </c>)
+    `
+}
 
 function grandeAlegriaHA489() {
   let thisText = document.getElementById('music-text')
