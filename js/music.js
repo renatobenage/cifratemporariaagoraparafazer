@@ -232,22 +232,16 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Descansar (CD Jovem)',
-    'Tudo Por Ele',
-    'Como Agradecer',
-    'Grande Alegria HA 489',
-    'Levanto A Cruz',
+    'Inteiramente Fiel',
+    'Digno De Louvor',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
     'Comigo - Leonardo Gonçalves',
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:descansarCDJovem()',
-    'javascript:tudoPorEle()',
-    'javascript:comoAgradecer()',
-    'javascript:grandeAlegriaHA489()',
-    'javascript:levantoACruzAdoradores()',
+    'javascript:inteiramenteFiel()',
+    'javascript:dignoDeLouvor()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
     'javascript:comigoLeonardo()',
