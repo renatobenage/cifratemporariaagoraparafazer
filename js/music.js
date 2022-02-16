@@ -232,7 +232,7 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Obrigado - Leonardo Gonçalves',
+    'Obrigado - Acústico',
     'Um Dia De Esperança',
     'Medley - Adoradores',
     'Chegou A Hora',
