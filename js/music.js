@@ -235,6 +235,11 @@ function buttonMusic2() {
     'Obrigado - Leonardo Gonçalves',
     'Um Dia De Esperança',
     'Medley - Adoradores',
+    'Chegou A Hora',
+    'Esconderijo',
+    'Revelução',
+    'Eu Me Rendo',
+    'Verei Jesus',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
   ];
@@ -243,6 +248,11 @@ function buttonMusic2() {
     'javascript:obrigadoAcustico()',
     'javascript:umDiaDeEsperanca()',
     'javascript:medleyAdoradores()',
+    'javascript:chegouAHoraJA21()',
+    'javascript:esconderijo()',
+    'javascript:revolucaoMelissaBarcelos()',
+    'javascript:euMeRencoVocalLivre()',
+    'javascript:vereiJesus()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
   ]
