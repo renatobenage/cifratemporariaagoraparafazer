@@ -232,19 +232,19 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Inteiramente Fiel',
-    'Digno De Louvor',
+    'Obrigado - Leonardo Gonçalves',
+    'Um Dia De Esperança',
+    'Medley - Adoradores',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
-    'Comigo - Leonardo Gonçalves',
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:inteiramenteFiel()',
-    'javascript:dignoDeLouvor()',
+    'javascript:obrigadoAcustico()',
+    'javascript:umDiaDeEsperanca()',
+    'javascript:medleyAdoradores()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
-    'javascript:comigoLeonardo()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
