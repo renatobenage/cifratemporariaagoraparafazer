@@ -37,6 +37,7 @@ function buttonMusic() {
     'Criança da Promessa',
     'Derramo Minha Vida',
     'Descansar (CD Jovem)',
+    'Deus De Israel',
     'Digo De Louvor',
     'Ele Me Amparou',
     'Em Espírito, Em Verdade',
@@ -89,6 +90,7 @@ function buttonMusic() {
     'Santo Somente é O Senhor',
     'Saudade (Coletânia Jovem)',
     'Só Em Ti',
+    'Somos Teus',
     'Sonda Me Vocal Livre',
     'Sou de Jesus CD Jovem 2006',
     'Te Agradeço (Diante Do Trono)',
@@ -121,6 +123,7 @@ function buttonMusic() {
     'javascript:criancaDaPromessa()',
     'javascript:derramoMinhaVida()',
     'javascript:descansarCDJovem()',
+    'javascript:DeusDeIsrael()',
     'javascript:dignoDeLouvor()',
     'javascript:eleMeAmparou()',
     'javascript:emEspiritoEmVerdade()',
@@ -173,6 +176,7 @@ function buttonMusic() {
     'javascript:santoSomenteEOSenhor()',
     'javascript:saudadeColetaniaJovem()',
     'javascript:soEmTi()',
+    'javascript:somosTeus()',
     'javascript:sondaMeVocalLivre()',
     'javascript:souDeJesusjovem2006()',
     'javascript:teAgradecoDianteDoTrono()',
@@ -236,6 +240,8 @@ function buttonMusic2() {
     'Um Dia De Esperança',
     'Medley - Adoradores',
     'Chegou A Hora',
+    'Somos Teus',
+    'Deus De Israel',
     'Esconderijo',
     'Revelução',
     'Eu Me Rendo',
@@ -249,6 +255,8 @@ function buttonMusic2() {
     'javascript:umDiaDeEsperanca()',
     'javascript:medleyAdoradores()',
     'javascript:chegouAHoraJA21()',
+    'javascript:somosTeus()',
+    'javascript:DeusDeIsrael()',
     'javascript:esconderijo()',
     'javascript:revolucaoMelissaBarcelos()',
     'javascript:euMeRencoVocalLivre()',
@@ -285,6 +293,201 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function DeusDeIsrael() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Deus De Israel</h3>
+  Tom: <c>Eb</c>
+  
+  Intro: <c>Eb Ab Cm Ab Eb Eb</c>
+  
+  <d>Primeira Parte</d>
+  
+  <c>Eb           Ab</c>
+  Deus de Israel
+  <c>          Cm</c>
+  Cristo Jesus
+  <c>          Ab</c>
+  Habita em mim
+  <c>         Eb  Eb</c>
+  Espírito Luz
+  
+  <d>Pré-Refrão</d>
+  
+  <c>               Cm      Ab          Eb</c>
+  Grande é o teu nome ó  Deus de Israel
+  <c>           Cm     Ab         Eb</c>
+  Pois Tu criaste a terra e o céu
+  <c>         Bb                Ab</c>
+  Hoje tua glória invade meu ser
+  
+  <d>Refrão</d>
+  
+  <c>   Eb Ab/Eb Eb</c>
+  Alelu__u____ia
+  <c>   Bb</c>
+  Aleluia
+  <c>   Cm   Ab</c>
+  Aleluia
+  <c>   Eb Ab/Eb Eb</c>
+  Aleluia
+  
+  <d>Pré-Refrão</d>
+  
+  <c>               Cm      Ab          Eb</c>
+  Grande é o teu nome ó  Deus de Israel
+  <c>           Cm     Ab         Eb</c>
+  Pois Tu criaste a terra e o céu
+  <c>         Bb                Ab</c>
+  Hoje tua glória invade meu ser
+  
+  <d>Refrão</d>
+  
+  <c>   Eb Ab/Eb Eb</c>
+  Alelu__u____ia
+  <c>   Bb</c>
+  Aleluia
+  <c>   Cm   Ab</c>
+  Aleluia
+  <c>   Eb Ab/Eb Eb</c>
+  Aleluia
+  
+  <d>Pré-Refrão</d> ( Banda c/ muita Energia )
+  
+  <c>               Cm      Ab          Eb</c>
+  Grande é o teu nome ó  Deus de Israel
+  <c>           Cm     Ab         Eb</c>
+  Pois Tu criaste a terra e o céu
+  <c>         Bb                Ab</c>
+  Hoje tua glória invade meu ser
+
+  <d>Refrão</d>
+  
+  <c>   Eb Ab/Eb Eb</c>
+  Alelu__u____ia
+  <c>   Bb</c>
+  Aleluia
+  <c>   Cm   Ab</c>
+  Aleluia
+  <c>   Eb Ab/Eb Eb</c>
+  Aleluia
+  
+  <d>Pré-Refrão</d>
+  
+  <c>               Cm      Ab          Eb</c>
+  Grande é o teu nome ó  Deus de Israel
+  <c>           Cm     Ab         Eb</c>
+  Pois Tu criaste a terra e o céu
+  <c>         Bb                Ab</c>
+  Hoje tua glória invade meu ser
+
+  <d>Refrão</d>
+  
+  <c>   Eb Ab/Eb Eb</c>
+  Alelu__u____ia
+  <c>   Bb</c>
+  Aleluia
+  <c>   Cm   Ab</c>
+  Aleluia
+  <c>   Eb Ab/Eb Eb</c>
+  Aleluia
+  
+  <d>Final</d> ( Só Piano )
+
+  <c>            Ab</c>
+  Deus de Israel
+  <c>          Cm</c>
+  Cristo Jesus
+  <c>          Ab</c>
+  Habita em mim
+  <c>         Eb  Eb</c>
+  Espírito Luz
+  
+  <c>            Ab</c>
+  Deus de Israel
+  <c>          Cm</c>
+  Cristo Jesus
+  <c>          Ab</c>
+  Habita em mim
+  <c>         Eb  Eb</c>
+  Espírito Luz
+    `
+}
+
+function somosTeus() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Somos Teus</h3>
+  Tom: <c>B</c>
+
+  Intro:<c> B2  E6  E6</c> (2x)
+  
+  <c>B2</c>
+  Está nascendo um novo tempo
+  <c>G#m7</c>
+  Uma nova geração
+  <c>E6                                 B</c>
+  Pra espalhar Tua glória em toda a terra
+  
+  <c>B</c>
+  Um tempo de consagração
+  <c>G#m7</c>
+  Restauração da Tua verdade
+  <c>EM7                             B2    B</c>
+  Pra levantar Teu nome, em toda terra
+  
+  <c>            E             B</c>
+  Eu vejo os jovens se prostrando
+  <c>        E            F#</c>
+  Em reverência e adoração
+  <c>            E         B            F#</c>
+  Eu vejo o Espírito movendo os corações
+  
+  <c>            E           B            E         F#</c>
+  Eu vejo a Igreja se erguendo e terminando a missão
+  <c>            E        B               F#</c>
+  Eu vejo um povo declarando em uma canção
+  
+  <c>      E</c>
+  Somos Teus, Senhor
+  <c>      G#m7</c>
+  Somos Teus, Senhor
+  <c>        E          F#           G#m</c>
+  Quer vivamos ou morramos somos Teus
+  <c>      E</c>
+  Somos Teus, Senhor
+  <c>      G#m7</c>
+  Somos Teus, Senhor
+  <c>        E          F#           B   </c>  
+  Quer vivamos ou morramos somos Teus
+    
+  <c>EM7</c>
+  Viveremos só por Ti
+  <c>G#m7</c>
+  E morreremos só por Ti
+  <c>E2            F#           B</c>
+  Quer vivamos ou morramos somos Teus
+  
+  Refrão:
+  <c>      E</c>
+  Somos Teus, Senhor
+  <c>      G#m</c>
+  Somos Teus, Senhor
+  <c>        E          F#            B</c>
+  Quer vivamos ou morramos somos Teus
+  
+  lento
+  <c>      E</c>
+  Somos Teus, Senhor
+  <c>      G#m</c>
+  Somos Teus, Senhor
+  <c>        E          F#            B</c>
+  Quer vivamos ou morramos somos Teus
+    `
+}
 
 function comigoLeonardo() {
   let thisText = document.getElementById('music-text')
