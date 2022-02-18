@@ -84,6 +84,7 @@ function buttonMusic() {
     'Que Prazer é Ser de Cristo 271',
     'Que Prazer é Ser de Cristo (Norton Hall Band)',
     'Quero Me Entregar (Diante do Trono)',
+    'Reaviva',
     'Rei dos Reis 73',
     'Renova - Me',
     'Revolução (Melissa Barcelos)',
@@ -103,6 +104,7 @@ function buttonMusic() {
     'Um Dia De Esperança',
     'Um Milagre Adoradores',
     'Vem Me Mudar',
+    'Vencendo Vem Jesus HA 152',
     'Verei Jesus',
     'Vim Para Adorar-Te',
     'Volto Pra Te Agradecer',
@@ -171,6 +173,7 @@ function buttonMusic() {
     'javascript:quePrazerESerDeCristo271()',
     'javascript:quePrazerESerDeCristoNortonHallBand()',
     'javascript:queroMeEntregarDianteDoTrono()',
+    'javascript:reaviva()',
     'javascript:reiDosReis73()',
     'javascript:renovaMe()',
     'javascript:revolucaoMelissaBarcelos()',
@@ -190,6 +193,7 @@ function buttonMusic() {
     'javascript:umDiaDeEsperanca()',
     'javascript:umMilagreAdoradores()',
     'javascript:vemMeMudar()',
+    'javascript:vencendoVemJesusHA152()',
     'javascript:vereiJesus()',
     'javascript:vimParaAdorarTe()',
     'javascript:voltoPraTeAgradecer()',
@@ -242,16 +246,18 @@ function buttonMusic2() {
     'Seja o Centro',
     'Obrigado - Acústico',
     'Um Dia De Esperança',
+    'Reaviva',
     'Medley - Adoradores',
     'Chegou A Hora',
     'Somos Teus',
     'Deus De Israel',
     'Esconderijo',
-    'Revelução',
+    'Revolução',
     'Eu Me Rendo',
     'Verei Jesus',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
+    'Vencendo Vem Jesus',
   ];
   // Incluir uma variável
   let musicVariable = [
@@ -259,6 +265,7 @@ function buttonMusic2() {
     'javascript:sejaOCentro()',
     'javascript:obrigadoAcustico()',
     'javascript:umDiaDeEsperanca()',
+    'javascript:reaviva()',
     'javascript:medleyAdoradores()',
     'javascript:chegouAHoraJA21()',
     'javascript:somosTeus()',
@@ -269,6 +276,7 @@ function buttonMusic2() {
     'javascript:vereiJesus()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
+    'javascript:vencendoVemJesusHA152()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -299,6 +307,208 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function vencendoVemJesusHA152() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Vencendo Vem Jesus HA 152</h3>
+  Tom: <c>Bb</c>
+
+  Intro: 
+
+  <d>Verso</d>
+  <c>Bb      </c>                        
+  Já refulge a glória eterna 
+    
+  de Je - sus o Rei dos Reis 
+  <c>         Eb                     Bb </c>
+  Breve os reinos deste mundo ouvirão as Suas leis 
+  <c>     Bb          Bb             Bb      D    Gm</c>
+  Os sinais da Sua vinda mais se  mostram cada vez 
+  <c>   Eb6   Bb/F   Bb </c>
+  Vencendo vem Jesus 
+  
+  <d>Refrão</d>
+  <c>Bb                 Bb/D</c>
+  Glória, glória, aleluia 
+  <c>Eb                 Bb </c>
+  Glória, glória, aleluia 
+  <c>Bb             Bb/D  F   Bb  Bb/D </c>
+  Glória, glória, a - le - lui - a 
+  <c>   Eb6   Bb/F F7   Bb </c>
+  Vencendo vem  Je - sus 
+  
+  <d>Verso</d>
+  <c>     Bb</c>
+  O clarim que chama os crentes à batalha já soou 
+  <c>         Eb                      Bb    </c>
+  Cristo à frente do Seu povo multidões já conquistou 
+  <c>     Bb          Bb         Bb    D    Gm</c>
+  O inimigo em retirada seu furor patenteou 
+  <c>   Eb6   Bb/F   Bb </c>
+  Vencendo vem Jesus 
+  
+  <d>Verso</d>
+  <c>      Bb</c>
+  E por fim entronizado as nações há de julgar 
+  <c>      Eb                     Bb    </c>
+  Todos grandes e pequenos o Juiz ão de encarar 
+  <c>       Bb         Bb           Bb        D   Gm</c>
+  E os remidos triunfantes em fulgor ão de can-tar 
+  <c>   Eb6  Bb/F   Bb </c>
+  Vencido tem Jesus 
+    `
+}
+
+function reaviva() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Reaviva</h3>
+  Tom: <c>C</c>
+
+  Intro: <c>C CM7 F Fsus2 </c>(2x)
+
+  <d>Verso:</d>
+
+  <c>C       C7M</c>
+  Meu Deus poderoso 
+  <c>F     Fsus2</c>
+  Ouça   minha prece
+  <c>C     C7M</c>
+  Sonda  meus caminhos
+  <c>F    Fsus2</c>
+  Cura  minhas culpas 
+
+  <d>Pré refrão:</d>
+
+  <c>Dm7</c>
+  Quanto tempo carreguei
+  <c>C/E</c>
+  Todo fardo que você
+  <c>F          Fsus2     Gsus4</c>
+  Prometeu levar sobre os Teus ombros
+  <c>Dm7</c>
+  Faça Tua luz brilhar
+  <c>C/E</c>
+  Trevas não vão resistir
+  <c>F                  C/G   Gsus4</c>
+  E o meu caminho estará seguro
+
+  <d>Refrão:</d> 
+
+  <c>C</c>
+  Completa Tua obra
+  <c>Dm</c>
+  Habita em minha vida
+  <c>C/E</c>
+  Quero ser a Tua casa
+  <c>Fsus2</c>
+  Reaviva Tua igreja
+  <c>C</c>
+  Eu quero em cada gesto
+  <c>Dm</c>
+  Transbordar Tua graça
+  <c>C/E</c>
+  Quero ser a Tua casa
+  <c>F</c>
+  Reaviva Tua igreja
+
+  ( <c>C C7M F Fsus2 </c>)
+
+  <d>Pré refrão:</d>
+
+  <c>Dm7</c>
+  Quanto tempo carreguei
+  <c>C/E</c>
+  Todo fardo que você
+  <c>F          Fsus2     Gsus4</c>
+  Prometeu levar sobre os Teus ombros
+  <c>Dm7</c>
+  Faça Tua luz brilhar
+  <c>C/E</c>
+  Trevas não vão resistir
+  <c>F                  C/G   Gsus4</c>
+  E o meu caminho estará seguro
+
+  <d>Refrão:</d> 
+
+  <c>C</c>
+  Completa Tua obra
+  <c>Dm</c>
+  Habita em minha vida
+  <c>C/E</c>
+  Quero ser a Tua casa
+  <c>Fsus2</c>
+  Reaviva Tua igreja
+  <c>C</c>
+  Eu quero em cada gesto
+  <c>Dm</c>
+  Transbordar Tua graça
+  <c>C/E</c>
+  Quero ser a Tua casa
+  <c>F</c>
+  Reaviva Tua igreja
+
+  (<c> C Dm7 C/E Fsus2 </c>)
+
+  <d>Música 2:</d>
+
+  <c>       Gsus4</c>
+  Vou crescendo em graça
+  <c>    G           C     Am</c>
+  Crescendo em poder
+  <c>        Gsus4</c>
+  Vou crescendo em graça
+  <c>            C   C7/E</c>
+  Movido pela fé
+  <c>      F          G/F</c>
+  Explodindo de vontade
+  <c>    C/E            F</c>
+  De estar com meu Jesus
+  <c>          C                A7</c>
+  Pois já é tarde o sol se esconde,
+  <c>    Dm7        Fm</c>
+  Logo vem a negra noite
+  <c>Am          G     F</c>
+  E amanhã trará o brilho 
+  <c>  C/E     Dm  G    C</c>
+  da Face do meu Senhor
+
+  <d>Refrão:</d> 
+
+  <c>C</c>
+  Completa Tua obra
+  <c>Dm</c>
+  Habita em minha vida
+  <c>C/E</c>
+  Quero ser a Tua casa   <d>Banda c/ energia</d>
+  <c>Fsus2</c>
+  Reaviva Tua igreja
+  <c>C</c>
+  Eu quero em cada gesto
+  <c>Dm</c>
+  Transbordar Tua graça
+  <c>C/E</c>
+  Quero ser a Tua casa
+  <c>F	           G</c>
+  Reaviva Tua igreja
+
+  (<c> C Dm7 C/E Fsus2 </c>)
+
+  <d>Final:</d> Piano, violino & órgão
+  
+  <c>C</c>
+  Eu quero em cada gesto
+  <c>Dm</c>
+  Transbordar Tua graça
+  <c>C/E</c>
+  Quero ser a Tua casa
+  <c>F                    C 	</c>
+  Reaviva Tua igreja
+    `
+}
 
 function diferenteDanielLudtke() {
   let thisText = document.getElementById('music-text')
@@ -564,14 +774,14 @@ function somosTeus() {
   Tom: <c>B</c>
 
   Intro:<c> B2  E6  E6</c> (2x)
-  
+
+  <d>Verso</d>
   <c>B2</c>
   Está nascendo um novo tempo
   <c>G#m7</c>
   Uma nova geração
   <c>E6                                 B</c>
-  Pra espalhar Tua glória em toda a terra
-  
+  Pra espalhar Tua glória em toda a terra  
   <c>B</c>
   Um tempo de consagração
   <c>G#m7</c>
@@ -579,18 +789,19 @@ function somosTeus() {
   <c>EM7                             B2    B</c>
   Pra levantar Teu nome, em toda terra
   
+  <d>Pré-refrão</d>
   <c>            E             B</c>
   Eu vejo os jovens se prostrando
   <c>        E            F#</c>
   Em reverência e adoração
   <c>            E         B            F#</c>
-  Eu vejo o Espírito movendo os corações
-  
+  Eu vejo o Espírito movendo os corações  
   <c>            E           B            E         F#</c>
   Eu vejo a Igreja se erguendo e terminando a missão
   <c>            E        B               F#</c>
   Eu vejo um povo declarando em uma canção
   
+  <d>Refrão</d>
   <c>      E</c>
   Somos Teus, Senhor
   <c>      G#m7</c>
@@ -603,7 +814,8 @@ function somosTeus() {
   Somos Teus, Senhor
   <c>        E          F#           B   </c>  
   Quer vivamos ou morramos somos Teus
-    
+   
+  <d>Ponte</d>
   <c>EM7</c>
   Viveremos só por Ti
   <c>G#m7</c>
@@ -611,7 +823,7 @@ function somosTeus() {
   <c>E2            F#           B</c>
   Quer vivamos ou morramos somos Teus
   
-  Refrão:
+  <d>Refrão</d>
   <c>      E</c>
   Somos Teus, Senhor
   <c>      G#m</c>
@@ -619,7 +831,7 @@ function somosTeus() {
   <c>        E          F#            B</c>
   Quer vivamos ou morramos somos Teus
   
-  lento
+  <d>lento</d>
   <c>      E</c>
   Somos Teus, Senhor
   <c>      G#m</c>
@@ -3350,85 +3562,96 @@ function revolucaoMelissaBarcelos() {
   let thisText = document.getElementById('music-text')
   thisText.innerHTML = `
   <pre>
-  <h3>Revolução (Melissa Barcelos</h3>
+  <h3>Revolução</h3>
   Tom: <c>G</c>
 
-  Intro:  <c>G D/F# C4/F C/E</c> 
-          <c>G D/F# C4/F C/E</c>
+  Intro:  <c>G D/F# F C/E</c> 
+          <c>G D/F# F C/E</c>
 
+  <d>Verso</d>
   <c>G                   D/F#</c>
   Neste altar de adoração
-  <c>  C9/E         C9</c>
+  <c>C9/E         C9</c>
   Estou senhor diante de Ti
   <c>G                 D/F#</c>
   Me esvazio de mim mesmo
-  <c>    C9/E        C9</c>
+  <c>  C9/E          C9</c>
   Pra dar lugar a Tua presença
-  <c>Em              B/E</c>
+  <c>Em               B</c>
   Já posso ate sentir
-  <c>C9/E                  F</c>
+  <c>C9/E         F</c>
   A essência que vem de Ti
 
-  (refrão)
-  <c>G                     D/F#                C7/E</c>
+  <d>Refrão</d>
+  <c>G                     F#                  C9/E</c>
   Vem transborda este lugar com a chuva de poder
-  <c>              C7           D4        G</c>
+  <c>              C9           D4        G</c>
   Eu quero mergulhar em Teus rios de amor
-  <c>              D/F#</c>
+  <c>               D/F#</c>
   Recebo a Tua unção
-  <c>              Am7    G/B         C7          D7(4)     G</c>
+  <c>              Am7    G/B         C9           D       G</c>
   Aceito a condição de ser moldado só por Tuas mãos Senhor
 
-  ( <c>... D/F# C4/F C/E</c> )
+  (<c> ... D/F# F C/E </c>)
 
+  <d>Verso</d>
   <c>G                 D/F#</c>
   Toma toda imperfeição
   <c>     C/E      C9</c>
   Transforma um vaso perfeito
   <c>G                D/F#</c>
   Faz em mim uma revolução
-  <c>  C9/E     C9</c>
+  <c>   C9/E     C9</c>
   Trocando o velho por novo
-  <c>Em                 B/E</c>
+  <c>Em                 B</c>
   Que eu possa me tornar
-  <c>C9/E                 F</c>
+  <c>C9               F</c>
   O mais sincero adorador
 
-  (refrão)
-  <c>G                     D/F#                C7/E</c>
+  <d>Refrão</d>
+  <c>G                     F#                  C9/E</c>
   Vem transborda este lugar com a chuva de poder
-  <c>              C7           D4        G</c>
+  <c>              C9           D4        G</c>
+  Eu quero mergulhar em Teus rios de amor
+  <c>               D/F#</c>
+  Recebo a Tua unção
+  <c>              Am7    G/B         C9           D       G</c>
+  Aceito a condição de ser moldado só por Tuas mãos Senhor
+
+  <d>Ponte</d>
+  <c>Em     C9        G         D/F#      </c>    
+  Te amo, te adoro, te louvo eu te exalto Senhor  
+  <c>Em    C9/E       G/D        D   </c>                        
+  Te amo,  te adoro, te louvo eu te exalto Senhor
+
+  <c>Em     C9        G         D/F#  </c>        
+  Te amo, te adoro, te louvo eu te exalto Senhor  
+  <c>Em    C9/E       G/D        D   </c>                        
+  Te amo,  te adoro, te louvo eu te exalto Senhor
+
+  ( <c>G D/F# F C/E </c>) 2x
+
+  <d>Refrão fraco s/ banda</d>  
+  <c>G                     F#                  C9/E</c>
+  Vem transborda este lugar com a chuva de poder
+  <c>              C9           D4        G</c>  <d>Banda entra no "G" devagar</d>
   Eu quero mergulhar em Teus rios de amor
   <c>              D/F#</c>
   Recebo a Tua unção
-  <c>              Am7    G/B         C7          D7(4) </c>    
+  <c>              Am7    G/B         C9           D       G</c>
   Aceito a condição de ser moldado só por Tuas mãos Senhor
 
-  (repete 3x)
-  <c>Em     C9        G         D/F#   D </c>        
-  Te amo, te adoro, te louvo eu te exalto Senhor
-
-  <c>Em    C9/E      G/D        D    </c>                        
-  Te amo, te adoro, te louvo eu te exalto Senhor
-
-  <c>Em     C9        G         D/F#   D  </c>       
-  Te amo, te adoro, te louvo eu te exalto Senhor
-
-  <c>Em    C9/E      G/D        D   </c>                         
-  Te amo, te adoro, te louvo eu te exalto Senhor
-
-  ( <c>G D/F# C4/F C/E </c>) 2x
-
-  <c>G                     D/F#                C7/E</c>
+  <d>Refrão forte</d>
+  <c>G                     F#                  C9/E</c>
   Vem transborda este lugar com a chuva de poder
-  <c>              C7           D4        G</c>
+  <c>              C9           D4        G</c>
   Eu quero mergulhar em Teus rios de amor
   <c>              D/F#</c>
   Recebo a Tua unção
-  <c>              Am7    G/B         C7          D7(4) </c>    
+  <c>              Am7    G/B         C9           D       G</c>
   Aceito a condição de ser moldado só por Tuas mãos Senhor
-
-  ( <c>G D/F# C4/F C9    C9    C9    C9</c> )
+  
+  (<c> G D/F# F C9    C9    C9    C9</c> )
     `
 }
 
