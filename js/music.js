@@ -89,6 +89,7 @@ function buttonMusic() {
     'Revolução (Melissa Barcelos)',
     'Santo Somente é O Senhor',
     'Saudade (Coletânia Jovem)',
+    'Seja o Centro',
     'Só Em Ti',
     'Somos Teus',
     'Sonda Me Vocal Livre',
@@ -175,6 +176,7 @@ function buttonMusic() {
     'javascript:revolucaoMelissaBarcelos()',
     'javascript:santoSomenteEOSenhor()',
     'javascript:saudadeColetaniaJovem()',
+    'javascript:sejaOCentro()',
     'javascript:soEmTi()',
     'javascript:somosTeus()',
     'javascript:sondaMeVocalLivre()',
@@ -236,6 +238,8 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
+    'Diferente (Daniel Ludtke)',
+    'Seja o Centro',
     'Obrigado - Acústico',
     'Um Dia De Esperança',
     'Medley - Adoradores',
@@ -251,6 +255,8 @@ function buttonMusic2() {
   ];
   // Incluir uma variável
   let musicVariable = [
+    'javascript:diferenteDanielLudtke()',
+    'javascript:sejaOCentro()',
     'javascript:obrigadoAcustico()',
     'javascript:umDiaDeEsperanca()',
     'javascript:medleyAdoradores()',
@@ -293,6 +299,140 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function diferenteDanielLudtke() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+    <pre>
+  <h3>Diferente (Daniel Ludtke)</h3>
+  Tom: <c>A</c>
+
+  Intro: <c>A D</c> (2x) 
+
+  <c>  A             D   </c>                    
+  O mundo vai, padronizando a gente e todo 
+  <c>A</c>
+  mundo cai
+  <c>   D                         F#m</c>
+  A ideia de que todos tem que ser iguais
+  <c>    F#m/E     D</c>
+  Pra serem normais
+
+  <c>    A             D     </c>                
+  E o mundo sai, pregando o modelo que ele 
+  <c>A</c>
+  mesmo faz
+  <c>    D                           F#m</c>
+  Que diz que os diferentes ficam para trás
+  <c>    F#m/E     D</c>
+  Sem vida, sem paz
+
+  <c>     F#m                   F#m/E    </c>   
+  E se loucos forem todos os outros que se 
+  <c>           D</c>
+  dizem tão normais
+  <c>  F#m                    F#m/E  </c>           
+  E eu, tão diferente, for o padrão presente 
+  <c>     D</c>
+  pro mundo (2x)
+
+  <c>A               E  </c>                
+  Não tente me mudar 
+  <c>               F#m</c>
+  já fui transformado por Jesus  
+  <c>        D</c>
+  Igual a ele, sou 
+  <c>A               E  </c>                
+  Não tente me mudar
+  <c>               F#m</c>
+  já fui transformado por Jesus  
+  <c>        D</c>
+  Igual a ele, sou 
+  <c>    A      D  A  D</c>
+  Diferente...
+
+  Final: ( <c>A9  D9 </c>)
+    `
+}
+
+function sejaOCentro() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+  <pre>
+  <h3>Seja o Centro</h3>
+  Tom: <c>C</c>
+
+  Intro: <c>Am  F/A  C  C</c>
+  
+  <c> Am                       F/A     </c>         
+  Aquele que em suas mãos detém a força e 
+  <c>          C    C</c>
+  todo o poder
+  <c>  Am                       F/A  </c>          
+  Aquele que promete a vida eterna a todo o 
+  <c>          C   C</c>
+  que nele crê
+  <c>  Am                    F/A   </c>           
+  É ele quem nos guarda e que operando quem 
+  <c>      C   C</c>
+  impedirá
+  <c>   Dm                  F  </c>                 
+  Ao guarda de Israel clamamos ouça nossa voz
+  <c>    C   C</c>
+    aqui
+  
+  <c>          Dm          F           C  C</c>
+  Reine em nós, venha a nós seu reino
+  <c>          F7+         F7+               C    F/C  C</c>
+  Reine em nós, venha a nós sua gloria ó Deus
+  
+  <c>        Dm          F7+           C  C4  C</c>
+  Seja o centro, seja tudo a todos nós
+  <c>        Dm          F7+           C  F/C  C</c>
+  Seja o centro, seja tudo a todos nós
+
+  (<c> Dm F</c>)
+  
+  <c> Am                       F/A </c>             
+  Aquele que em suas mãos detém a força e 
+  <c>          C    C</c>
+  todo o poder
+  <c>  Am                       F/A  </c>          
+  Aquele que promete a vida eterna a todo o 
+  <c>          C   C</c>
+  que nele crê
+  <c>  Am                    F/A   </c>           
+  É ele quem nos guarda e que operando quem 
+  <c>      C   C</c>
+  impedirá
+  <c>   Dm                  F  </c>                 
+  Ao guarda de Israel clamamos ouça nossa voz
+  <c>    C   C</c>
+    aqui
+  
+  <c>          Dm          F           C  C</c>
+  Reine em nós, venha a nós seu reino
+  <c>          F7+         F7+               C    F/C  C</c>
+  Reine em nós, venha a nós sua gloria ó Deus
+  
+  <c>        Dm          F7+           C  C4  C</c>
+  Seja o centro, seja tudo a todos nós
+  <c>        Dm          F7+           C  F/C  C</c>
+  Seja o centro, seja tudo a todos nós
+  
+  <c>          Dm          F           C  C</c>
+  Reine em nós, venha a nós seu reino
+  <c>          F7+         F7+               C    F/C  C</c>
+  Reine em nós, venha a nós sua gloria ó Deus
+  
+  <c>        Dm          F             C  C4  C</c>
+  Seja o centro, seja tudo a todos nós
+  <c>        Dm          F             C  F/C  C</c>
+  Seja o centro, seja tudo a todos nós
+
+  (<c> Dm F7+</c> )
+    `
+}
 
 function DeusDeIsrael() {
   let thisText = document.getElementById('music-text')
@@ -4872,27 +5012,27 @@ function euMeRencoVocalLivre() {
   <pre>
   <h3>Eu Me Rendo (Vocal Livre)</h3>
   Tom: <c>C</c>
-  [Intro] <c>C  G/B  Am7  F9</c></c>
-          <c>C  G/B  Am7  F9</c></c>
+  [Intro] <c>C  C/E  Am7  F9</c></c>
+          <c>C  C/E  Am7  F9</c></c>
   
-  <c>C9             G/B                 Am7</c></c>
+  <c>C9             C7M             Am7</c></c>
     A Ti eu vou clamar pois tudo vem de Ti
-  <c>              F9</c></c>
+  <c>         F9</c></c>
   E tudo está em Ti
-  <c>C9             G/B              Am7</c></c>
+  <c>C9             C7M           Am7</c></c>
   Por Ti vou caminhar, Tu és a direção
-  <c>            F9      C/E</c></c>
+  <c>        F9      C/E</c></c>
   O sol a me guiar
-  <c>Dm7        G4   G</c></c>
+  <c>Dm7          G/B</c></c>
   Tudo pode passar
-  <c>    C9    Em7   F9      C/E</c></c>
+  <c>     C9    C/E        F9      C/E</c></c>
   Teu amor jamais  me  deixará
-  <c>Dm7           G4   G</c></c>
+  <c>Dm7              G/B</c></c>
   Sempre há de existir
-  <c>          C9    Em7     F9</c></c>
+  <c>          C9     C/E      F9</c></c>
   Novo amanhã preparado pra mim
   
-  <c>      C9            G/B</c></c>
+  <c>      C9             G/B</c></c>
   Eu me rendo aos Teus pés
   <c>        Am7                  F9</c></c>
   És tudo que eu preciso pra viver
@@ -4900,53 +5040,62 @@ function euMeRencoVocalLivre() {
   Eu me lanço em Teus braços
   <c>        Am7         F9</c></c>
   Onde encontro meu refúgio
-  <c>    C   Em7         F9</c></c>
+  <c>    C   C7M           F9</c></c>
   Jesus,        eis-me aqui!
-  <c>    Am7/9   G         F9</c></c>
-  Jesus,     eis-me aqui!
+  <c>    Am7/9  G         F9</c></c>
+  Jesus,       eis-me aqui!
   
-  <c>C9             G/B                 Am7</c></c>
-    A Ti eu vou clamar pois tudo vem de Ti
-  <c>              F9</c></c>
+  <c>C9             C7M             Am7</c></c>
+  A Ti eu vou clamar pois tudo vem de Ti
+  <c>         F9</c></c>
   E tudo está em Ti
-  <c>C9             G/B              Am7</c></c>
+  <c>C9             C7M           Am7</c></c>
   Por Ti vou caminhar, Tu és a direção
-  <c>            F9      C/E</c></c>
+  <c>        F9      C/E</c></c>
   O sol a me guiar
-  <c>Dm7        G4   G</c></c>
+  <c>Dm7          G/B</c></c>
   Tudo pode passar
-  <c>    C9    Em7   F9      C/E</c></c>
+  <c>     C9    C/E        F9      C/E</c></c>
   Teu amor jamais  me  deixará
-  <c>Dm7           G4   G</c></c>
+  <c>Dm7              G/B</c></c>
   Sempre há de existir
-  <c>          C9    Em7     F9</c></c>
+  <c>          C9     C/E      F9</c></c>
   Novo amanhã preparado pra mim
   
-  <c>        C9            G/B</c></c>
+  <c>      C9             G/B</c></c>
   Eu me rendo aos Teus pés
   <c>        Am7                  F9</c></c>
   És tudo que eu preciso pra viver
   <c>        C9          G/B</c></c>
   Eu me lanço em Teus braços
-  <c>        Am7         F9</c>
+  <c>        Am7         F9</c></c>
   Onde encontro meu refúgio
-  <c>    C   Em7         F9</c>
+  <c>    C   C7M           F9</c></c>
   Jesus,        eis-me aqui!
-  <c>    Am7   G         F9        G</c>
-  Jesus,     eis-me aqui!
+  <c>    Am7/9  G         F9</c></c>
+  Jesus,       eis-me aqui!
   
-  <c>  D9            A/C#</c>
+  <c>      D9             F#m</c>
   Eu me rendo aos Teus pés
-  <c>        Bm7</c>
+  <c>       (Pausa.....)  G</c>
   És tudo qu---e eu precis----o
-  <c>        D9          A/C#</c>
+  <c>      D9            F#m</c>
   Eu me lanço em Teus braços
-  <c>        Bm7         G9</c>
+  <c>       Bm7          G9</c>
   Onde encontro meu refúgio
-  <c>    D   F#m         G9</c>
-  Jesus,        eis-me aqui!
-  <c>    Bm7   A         G9</c>
-  Jesus,     eis-me aqui!
+  <c>   D   F#m          G9   G</c>
+  Jesus,      eis-me aqui!
+  <c>   Bm7  A           G9   G</c>
+  Jesus,      eis-me aqui!
+
+  <c>      D9             A/C#</c>
+  Eu me rendo aos Teus pés
+  <c>        Bm7            G</c>
+  És tudo que eu preciso pra viver
+  <c>      D9            A/C#</c>
+  Eu me lanço em Teus braços          piano
+  <c>       Bm7          G9</c>
+  Onde encontro meu refúgio
   `
 }
 
