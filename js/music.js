@@ -34,6 +34,7 @@ function buttonMusic() {
     'Chegou A Hora JA21',
     'Comigo - Leonardo Gonçalves',
     'Como Agradecer 249',
+    'Confiei No Meu Senhor',
     'Criança da Promessa',
     'Derramo Minha Vida',
     'Descansar (CD Jovem)',
@@ -123,6 +124,7 @@ function buttonMusic() {
     'javascript:chegouAHoraJA21()',
     'javascript:comigoLeonardo()',
     'javascript:comoAgradecer()',
+    'javascript:confieiNoMeuSenhor()',
     'javascript:criancaDaPromessa()',
     'javascript:derramoMinhaVida()',
     'javascript:descansarCDJovem()',
@@ -252,12 +254,14 @@ function buttonMusic2() {
     'Somos Teus',
     'Deus De Israel',
     'Esconderijo',
+    'Confiei No Meu Senhor',
     'Revolução',
     'Eu Me Rendo',
     'Verei Jesus',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
     'Vencendo Vem Jesus',
+    'Maravilhas',
   ];
   // Incluir uma variável
   let musicVariable = [
@@ -271,12 +275,14 @@ function buttonMusic2() {
     'javascript:somosTeus()',
     'javascript:DeusDeIsrael()',
     'javascript:esconderijo()',
+    'javascript:confieiNoMeuSenhor()',
     'javascript:revolucaoMelissaBarcelos()',
     'javascript:euMeRencoVocalLivre()',
     'javascript:vereiJesus()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
     'javascript:vencendoVemJesusHA152()',
+    'javascript:maravilhasCDJovem()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -307,6 +313,61 @@ function substituirEsseTexto() {
 }
 
 // ----------------- FUNÇÃO ADICIONA LETRA E CIFRA -----------------------
+
+function confieiNoMeuSenhor() {
+  let thisText = document.getElementById('music-text')
+  thisText.innerHTML = `
+    <pre>
+  <h3>Confiei No Meu Senhor</h3>
+  Tom: <c>G</c>
+
+  Intro:
+
+  <d>Verso</d>
+  <c>G7     G/A   G/B    C    C/Bb F2/A  </c>
+    Confi-ei no meu Senhor,
+  <c>           Bb</c>
+  E Ele me ouviu;
+  <c>D/F#              G  G/F Em7</c>
+    Do pecado me livrou,
+  <c>                   F/A  C/G Dm7/F</c>
+  E a vida em mim surgiu.
+
+  <d>Coro</d>
+  <c>C             Dm7</c>
+  Muitos O verão   e temerão,
+  <c>G7        G/F            C2/E C/E</c>
+  Deus, Criador da Terra e Céu.
+  <c>G6        E°            Dm       Dm/C</c>
+  Bem-aventurado o que confia no Senhor.
+  <c>  F/A       C/E Dm7   G7    C</c>
+  A Cristo honra, glória e louvor!
+
+  <d>Verso</d>
+  <c>G7       G/A   G/B    C    C/Bb F2/A </c>
+    Os meus pés guiou no bem;
+  <c>                 Bb   D/F#</c>
+  Um sol em mim nasceu;
+  <c>D/F#               G  G/F Em7</c>
+    Minha vida há de ser
+  <c>                     F/A  C/G Dm7/F</c>
+    Um hino ao meu bom Deus.
+
+  <d>Coro</d>
+  <c> C            Dm7</c>
+  Muitos O verão   e temerão,
+  <c>G7        G/F            C2/E C/E</c>
+  Deus, Criador da Terra e Céu.
+  <c>G6        E°            Dm       Dm/C</c>
+  Bem-aventurado o que confia no Senhor.
+  <c>  F/A       C/E Dm7   G7    C</c>
+  A Cristo honra, glória e louvor!
+  
+  <d>Final</d>
+  <c>                  C</c>
+  Confiei no Meu Senhor
+    `
+}
 
 function vencendoVemJesusHA152() {
   let thisText = document.getElementById('music-text')
