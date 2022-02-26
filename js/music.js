@@ -244,45 +244,19 @@ function buttonMusic() {
 function buttonMusic2() {
   // Incluir um "Nome do Botão"
   let musicArray = [
-    'Diferente (Daniel Ludtke)',
-    'Seja o Centro',
-    'Obrigado - Acústico',
-    'Um Dia De Esperança',
-    'Reaviva',
-    'Medley - Adoradores',
-    'Chegou A Hora',
-    'Somos Teus',
-    'Deus De Israel',
+    'Meu Pastor',
     'Esconderijo',
-    'Confiei No Meu Senhor',
-    'Revolução',
-    'Eu Me Rendo',
-    'Verei Jesus',
+    'O Melhor Lugar do Mundo',
     'Ouve A Minha Oração',
     'Nos Braços De Jesus',
-    'Vencendo Vem Jesus',
-    'Maravilhas',
   ];
   // Incluir uma variável
   let musicVariable = [
-    'javascript:diferenteDanielLudtke()',
-    'javascript:sejaOCentro()',
-    'javascript:obrigadoAcustico()',
-    'javascript:umDiaDeEsperanca()',
-    'javascript:reaviva()',
-    'javascript:medleyAdoradores()',
-    'javascript:chegouAHoraJA21()',
-    'javascript:somosTeus()',
-    'javascript:DeusDeIsrael()',
+    'javascript:meuPastorMedley()',
     'javascript:esconderijo()',
-    'javascript:confieiNoMeuSenhor()',
-    'javascript:revolucaoMelissaBarcelos()',
-    'javascript:euMeRencoVocalLivre()',
-    'javascript:vereiJesus()',
+    'javascript:oMelhorLugarDoMundo()',
     'javascript:ouveAMinhaOracao()',
     'javascript:nosBracosDeJesus()',
-    'javascript:vencendoVemJesusHA152()',
-    'javascript:maravilhasCDJovem()',
   ]
 
   let acessSectionButton = document.querySelector('.button-section')
@@ -6228,9 +6202,10 @@ function meuPastorMedley() {
   <pre>
   <h3>Meu Pastor</h3>
   Tom: <c>C</c>
-  [Intro]
-  <c>F7+  C  Am  G</c>
-  <c>F7+  C  Am  G</c>
+  
+  Intro: <c>F7+  C  Am  G</c>
+         <c>F7+  C  Am  G</c>
+  
 
   (piano marcando e riffs de guitarra)
 
